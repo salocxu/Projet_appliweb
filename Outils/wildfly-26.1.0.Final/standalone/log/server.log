@@ -4,3 +4,8 @@
 2024-05-01 15:44:55,748 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Full 26.1.0.Final (WildFly Core 18.1.0.Final) started in 10838ms - Started 298 of 538 services (337 services are lazy, passive or on-demand) - Server configuration file in use: standalone.xml
 2024-05-01 15:44:55,750 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
 2024-05-01 15:44:55,751 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9990
+2024-05-13 18:49:58,130 INFO  [org.jboss.ws.common.management] (MSC service thread 1-5) JBWS022052: Starting JBossWS 5.4.4.Final (Apache CXF 3.4.5) 
+2024-05-13 18:49:58,261 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Resuming server
+2024-05-13 18:49:58,266 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Full 26.1.0.Final (WildFly Core 18.1.0.Final) started in 4009ms - Started 298 of 538 services (337 services are lazy, passive or on-demand) - Server configuration file in use: standalone.xml
+2024-05-13 18:49:58,271 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
+2024-05-13 18:49:58,272 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9990
