@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Authentification</title>
+</head>
+<meta charset="UTF-8">
+<form action="Serv" method="post">
+    <input type="hidden" name="op" value="ajoutpersonne">
+    <label for="ID">Identifiant</label> <input type="mail" name="mail" id="identifiant" required><br>
+    <label for="MDP">Mot de passe :</label> <input type="password" name="mdp" id="mdp" required><br>
+    <input type="submit" value="Connexion">
+    <button class="link-button" onclick="window.location.href='ajoutpersonne.html'">Nouvel utilisateur</button>
+</form>
+
+</html>
