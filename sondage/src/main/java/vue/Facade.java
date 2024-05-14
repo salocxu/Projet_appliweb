@@ -1,8 +1,8 @@
 package vue;
 
-import jakarta.ejb.Singleton;
-import jakarta.persistence.EntityManager;
-import jakarta.persistence.PersistenceContext;
+import javax.ejb.Singleton;
+import javax.persistence.EntityManager;
+import javax.persistence.PersistenceContext;
 import java.util.Collection;
 import java.util.HashMap;
 import java.util.HashSet;
