@@ -1,15 +1,41 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
 <head>
-    <title>Authentification</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PollHub - Accueil</title>
+    <link rel="stylesheet" href="styles.css">
+    <script>
+        function redirectToSignup() {
+            window.location.href = 'signup.html';
+        }
+    </script>
 </head>
-<meta charset="UTF-8">
-<form action="Serv" method="post">
-    <input type="hidden" name="op" value="ajoutpersonne">
-    <label for="ID">Identifiant</label> <input type="mail" name="mail" id="identifiant" required><br>
-    <label for="MDP">Mot de passe :</label> <input type="password" name="mdp" id="mdp" required><br>
-    <input type="submit" value="Connexion">
-    <button class="link-button" onclick="window.location.href='ajoutpersonne.html'">Nouvel utilisateur</button>
-</form>
-
+<body>
+    <header>
+        <div class="logo">
+            <span class="poll">Poll</span><span class="hub">Hub</span>
+        </div>
+    </header>
+    <main>
+        <div class="login-container">
+            <h2>Connexion</h2>
+            <form>
+                <div class="input-group">
+                    <label for="email">Adresse Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="input-group">
+                    <label for="password">Mot de passe</label>
+                    <input type="password" id="password" name="password" required>
+                </div>
+                <button type="submit" class="login-btn">Se connecter</button>
+                <button type="button" class="signup-btn" onclick="redirectToSignup()">Créer un compte</button>
+            </form>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 PollHub. Tous droits réservés.</p>
+    </footer>
+</body>
 </html>
