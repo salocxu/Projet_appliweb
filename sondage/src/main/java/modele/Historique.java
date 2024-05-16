@@ -7,6 +7,7 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.OneToMany;
+import javax.persistence.OneToOne;
 
 /**
  * Personne
@@ -18,53 +19,25 @@ public class Historique {
   @GeneratedValue(strategy = GenerationType.IDENTITY)
   private int id;
 
-  private String prenom;
-
   private String nom;
 
-  @OneToMany(mappedBy = "owner", fetch = FetchType.EAGER)
-  private List<Sondage> adresses;
+  @OneToOne(mappedBy = "historique", fetch = FetchType.LAZY)
+  private Sondage sondage;
 
-  public Historique() {}
+  private int numero_sondage;
 
-  public Historique (String prenom, String nom) {
-    this.prenom = prenom;
+  public Historique(String nom, int numero_sondage) {
     this.nom = nom;
+    this.numero_sondage = numero_sondage;
   }
 
-  public void addAdresse (Sondage adr) {
-    adresses.add(adr);
+  // lier avec la classe sondage
+  public int getnumero_sondage() {
+    return numero_sondage;
   }
 
-  public void setId(int id) {
-    this.id = id;
+  public Sondage getSondage() {
+    return sondage;
   }
 
-  public void setNom(String nom) {
-    this.nom = nom;
-  }
-
-  public void setPrenom(String prenom) {
-    this.prenom = prenom;
-  }
-
-  public void setAdresses(List<Sondage> adresses) {
-    this.adresses = adresses;
-  }
-
-  public int getId() {
-    return id;
-  }
-
-  public String getNom() {
-    return nom;
-  }
-
-  public String getPrenom() {
-    return prenom;
-  }
-
-  public List<Sondage> getAdresses() {
-    return adresses;
-  }
 }
