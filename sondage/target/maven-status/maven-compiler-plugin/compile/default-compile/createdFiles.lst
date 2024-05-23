@@ -1,0 +1,6 @@
+pack\AuthBean.class
+pack\AuthServlet.class
+modele\Question.class
+modele\Commentaire.class
+modele\Reponse.class
+modele\User.class
