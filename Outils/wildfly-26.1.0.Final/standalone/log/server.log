@@ -1,8 +1,8 @@
-2024-05-16 08:47:20,452 INFO  [org.jboss.modules] (main) JBoss Modules version 2.0.2.Final
-2024-05-16 08:47:21,107 INFO  [org.jboss.msc] (main) JBoss MSC version 1.4.13.Final
-2024-05-16 08:47:21,119 INFO  [org.jboss.threads] (main) JBoss Threads version 2.4.0.Final
-2024-05-16 08:47:21,277 INFO  [org.jboss.as] (MSC service thread 1-2) WFLYSRV0049: WildFly Full 26.1.0.Final (WildFly Core 18.1.0.Final) starting
-2024-05-16 08:47:21,277 DEBUG [org.jboss.as.config] (MSC service thread 1-2) Configured system properties:
+2024-05-19 19:58:12,793 INFO  [org.jboss.modules] (main) JBoss Modules version 2.0.2.Final
+2024-05-19 19:58:13,505 INFO  [org.jboss.msc] (main) JBoss MSC version 1.4.13.Final
+2024-05-19 19:58:13,522 INFO  [org.jboss.threads] (main) JBoss Threads version 2.4.0.Final
+2024-05-19 19:58:13,697 INFO  [org.jboss.as] (MSC service thread 1-2) WFLYSRV0049: WildFly Full 26.1.0.Final (WildFly Core 18.1.0.Final) starting
+2024-05-19 19:58:13,697 DEBUG [org.jboss.as.config] (MSC service thread 1-2) Configured system properties:
 	file.encoding = UTF-8
 	file.separator = \
 	java.awt.headless = true
@@ -83,50 +83,50 @@
 	user.script = 
 	user.timezone = Europe/Paris
 	user.variant = 
-2024-05-16 08:47:21,277 DEBUG [org.jboss.as.config] (MSC service thread 1-2) VM Arguments: -Dprogram.name=rsp:WildFly 24+ -Xms64m -Xmx512m -Dorg.jboss.resolver.warning=true -Djava.net.preferIPv4Stack=true -Dsun.rmi.dgc.client.gcInterval=3600000 -Dsun.rmi.dgc.server.gcInterval=3600000 -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true -Dorg.jboss.boot.log.file=c:\Users\gaeta\OneDrive\Dokumentumok\N7\aplli web\projet\sondage\Projet_appliweb\Outils\wildfly-26.1.0.Final\standalone\log\boot.log -Dlogging.configuration=file:c:\Users\gaeta\OneDrive\Dokumentumok\N7\aplli web\projet\sondage\Projet_appliweb\Outils\wildfly-26.1.0.Final\standalone\configuration\logging.properties -Djboss.home.dir=c:\Users\gaeta\OneDrive\Dokumentumok\N7\aplli web\projet\sondage\Projet_appliweb\Outils\wildfly-26.1.0.Final -Djboss.server.base.dir=c:\Users\gaeta\OneDrive\Dokumentumok\N7\aplli web\projet\sondage\Projet_appliweb\Outils\wildfly-26.1.0.Final\standalone -Dorg.jboss.logmanager.nocolor=true -Djboss.bind.address.management=localhost --add-exports=java.desktop/sun.awt=ALL-UNNAMED --add-exports=java.naming/com.sun.jndi.ldap=ALL-UNNAMED --add-exports=java.naming/com.sun.jndi.url.ldap=ALL-UNNAMED --add-exports=java.naming/com.sun.jndi.url.ldaps=ALL-UNNAMED --add-exports=jdk.naming.dns/com.sun.jndi.dns=ALL-UNNAMED --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.lang.invoke=ALL-UNNAMED --add-opens=java.base/java.lang.reflect=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.base/java.net=ALL-UNNAMED --add-opens=java.base/java.security=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.util.concurrent=ALL-UNNAMED --add-opens=java.management/javax.management=ALL-UNNAMED --add-opens=java.naming/javax.naming=ALL-UNNAMED -Djboss.http.port=8080 
-2024-05-16 08:47:22,208 INFO  [org.wildfly.security] (ServerService Thread Pool -- 27) ELY00001: WildFly Elytron version 1.19.0.Final
-2024-05-16 08:47:23,410 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
-2024-05-16 08:47:23,445 INFO  [org.xnio] (MSC service thread 1-6) XNIO version 3.8.6.Final
-2024-05-16 08:47:23,458 INFO  [org.xnio.nio] (MSC service thread 1-6) XNIO NIO Implementation Version 3.8.6.Final
-2024-05-16 08:47:23,523 INFO  [org.jboss.as.jaxrs] (ServerService Thread Pool -- 56) WFLYRS0016: RESTEasy version 4.7.4.Final
-2024-05-16 08:47:23,532 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 55) WFLYIO001: Worker 'default' has auto-configured to 24 IO threads with 192 max task threads based on your 12 available processors
-2024-05-16 08:47:23,544 INFO  [org.wildfly.extension.elytron.oidc._private] (ServerService Thread Pool -- 52) WFLYOIDC0001: Activating WildFly Elytron OIDC Subsystem
-2024-05-16 08:47:23,547 INFO  [org.wildfly.extension.health] (ServerService Thread Pool -- 53) WFLYHEALTH0001: Activating Base Health Subsystem
-2024-05-16 08:47:23,547 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 54) WFLYCLINF0001: Activating Infinispan subsystem.
-2024-05-16 08:47:23,557 INFO  [org.wildfly.extension.microprofile.jwt.smallrye] (ServerService Thread Pool -- 65) WFLYJWT0001: Activating MicroProfile JWT Subsystem
-2024-05-16 08:47:23,557 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 74) WFLYTX0013: The node-identifier attribute on the /subsystem=transactions is set to the default value. This is a danger for environments running multiple servers. Please make sure the attribute value is unique.
-2024-05-16 08:47:23,562 INFO  [org.wildfly.extension.microprofile.config.smallrye] (ServerService Thread Pool -- 64) WFLYCONF0001: Activating MicroProfile Config Subsystem
-2024-05-16 08:47:23,575 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 61) WFLYJSF0007: Activated the following Jakarta Server Faces Implementations: [main]
-2024-05-16 08:47:23,596 INFO  [org.wildfly.extension.microprofile.opentracing] (ServerService Thread Pool -- 66) WFLYTRACEXT0001: Activating MicroProfile OpenTracing Subsystem
-2024-05-16 08:47:23,600 INFO  [org.wildfly.extension.metrics] (ServerService Thread Pool -- 63) WFLYMETRICS0001: Activating Base Metrics Subsystem
-2024-05-16 08:47:23,625 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 67) WFLYNAM0001: Activating Naming Subsystem
-2024-05-16 08:47:23,697 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 76) WFLYWS0002: Activating WebServices Extension
-2024-05-16 08:47:23,767 INFO  [org.jboss.remoting] (MSC service thread 1-3) JBoss Remoting version 5.0.24.Final
-2024-05-16 08:47:23,784 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 44) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 1.4)
-2024-05-16 08:47:23,785 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) WFLYUT0003: Undertow 2.2.16.Final starting
-2024-05-16 08:47:23,803 INFO  [org.jboss.as.connector] (MSC service thread 1-1) WFLYJCA0009: Starting Jakarta Connectors Subsystem (WildFly/IronJacamar 1.5.3.Final)
-2024-05-16 08:47:23,820 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-8) WFLYJCA0018: Started Driver service with driver-name = h2
-2024-05-16 08:47:23,822 INFO  [org.jboss.as.naming] (MSC service thread 1-8) WFLYNAM0003: Starting Naming Service
-2024-05-16 08:47:23,822 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-8) WFLYMAIL0001: Bound mail session [java:jboss/mail/Default]
-2024-05-16 08:47:23,945 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 75) WFLYUT0014: Creating file handler for path 'c:\Users\gaeta\OneDrive\Dokumentumok\N7\aplli web\projet\sondage\Projet_appliweb\Outils\wildfly-26.1.0.Final/welcome-content' with options [directory-listing: 'false', follow-symlink: 'false', case-sensitive: 'true', safe-symlink-paths: '[]']
-2024-05-16 08:47:24,002 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) WFLYUT0012: Started server default-server.
-2024-05-16 08:47:24,002 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) Queuing requests.
-2024-05-16 08:47:24,011 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) WFLYUT0018: Host default-host starting
-2024-05-16 08:47:24,096 INFO  [org.jboss.as.ejb3] (MSC service thread 1-8) WFLYEJB0481: Strict pool slsb-strict-max-pool is using a max instance size of 192 (per class), which is derived from thread worker pool sizing.
-2024-05-16 08:47:24,096 INFO  [org.jboss.as.ejb3] (MSC service thread 1-4) WFLYEJB0482: Strict pool mdb-strict-max-pool is using a max instance size of 48 (per class), which is derived from the number of CPUs on this host.
-2024-05-16 08:47:24,112 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0006: Undertow HTTP listener default listening on 127.0.0.1:8080
-2024-05-16 08:47:24,298 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) WFLYUT0006: Undertow HTTPS listener https listening on 127.0.0.1:8443
-2024-05-16 08:47:24,355 INFO  [org.jboss.as.ejb3] (MSC service thread 1-4) WFLYEJB0493: Jakarta Enterprise Beans subsystem suspension complete
-2024-05-16 08:47:24,480 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-8) WFLYJCA0001: Bound data source [java:jboss/datasources/ExampleDS]
-2024-05-16 08:47:24,658 INFO  [org.jboss.as.patching] (MSC service thread 1-7) WFLYPAT0050: WildFly Full cumulative patch ID is: base, one-off patches include: none
-2024-05-16 08:47:24,664 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-6) WFLYDS0013: Started FileSystemDeploymentService for directory c:\Users\gaeta\OneDrive\Dokumentumok\N7\aplli web\projet\sondage\Projet_appliweb\Outils\wildfly-26.1.0.Final\standalone\deployments
-2024-05-16 08:47:24,674 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0027: Starting deployment of "sondage.war" (runtime-name: "sondage.war")
-2024-05-16 08:47:24,856 INFO  [org.jboss.ws.common.management] (MSC service thread 1-8) JBWS022052: Starting JBossWS 5.4.4.Final (Apache CXF 3.4.5) 
-2024-05-16 08:47:25,227 INFO  [org.jboss.as.jpa] (MSC service thread 1-7) WFLYJPA0002: Read persistence.xml for MaPU
-2024-05-16 08:47:25,340 INFO  [org.jipijapa] (MSC service thread 1-1) JIPIORMV53020253: Second level cache enabled for sondage.war#MaPU
-2024-05-16 08:47:25,673 INFO  [org.jboss.weld.deployer] (MSC service thread 1-2) WFLYWELD0003: Processing weld deployment sondage.war
-2024-05-16 08:47:25,860 INFO  [org.hibernate.validator.internal.util.Version] (MSC service thread 1-2) HV000001: Hibernate Validator 6.0.23.Final
-2024-05-16 08:47:26,070 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-2) WFLYEJB0473: JNDI bindings for session bean named 'Facade' in deployment unit 'deployment "sondage.war"' are as follows:
+2024-05-19 19:58:13,703 DEBUG [org.jboss.as.config] (MSC service thread 1-2) VM Arguments: -Dprogram.name=rsp:WildFly 24+ -Xms64m -Xmx512m -Dorg.jboss.resolver.warning=true -Djava.net.preferIPv4Stack=true -Dsun.rmi.dgc.client.gcInterval=3600000 -Dsun.rmi.dgc.server.gcInterval=3600000 -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true -Dorg.jboss.boot.log.file=c:\Users\gaeta\OneDrive\Dokumentumok\N7\aplli web\projet\sondage\Projet_appliweb\Outils\wildfly-26.1.0.Final\standalone\log\boot.log -Dlogging.configuration=file:c:\Users\gaeta\OneDrive\Dokumentumok\N7\aplli web\projet\sondage\Projet_appliweb\Outils\wildfly-26.1.0.Final\standalone\configuration\logging.properties -Djboss.home.dir=c:\Users\gaeta\OneDrive\Dokumentumok\N7\aplli web\projet\sondage\Projet_appliweb\Outils\wildfly-26.1.0.Final -Djboss.server.base.dir=c:\Users\gaeta\OneDrive\Dokumentumok\N7\aplli web\projet\sondage\Projet_appliweb\Outils\wildfly-26.1.0.Final\standalone -Dorg.jboss.logmanager.nocolor=true -Djboss.bind.address.management=localhost --add-exports=java.desktop/sun.awt=ALL-UNNAMED --add-exports=java.naming/com.sun.jndi.ldap=ALL-UNNAMED --add-exports=java.naming/com.sun.jndi.url.ldap=ALL-UNNAMED --add-exports=java.naming/com.sun.jndi.url.ldaps=ALL-UNNAMED --add-exports=jdk.naming.dns/com.sun.jndi.dns=ALL-UNNAMED --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.lang.invoke=ALL-UNNAMED --add-opens=java.base/java.lang.reflect=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.base/java.net=ALL-UNNAMED --add-opens=java.base/java.security=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.util.concurrent=ALL-UNNAMED --add-opens=java.management/javax.management=ALL-UNNAMED --add-opens=java.naming/javax.naming=ALL-UNNAMED -Djboss.http.port=8080 
+2024-05-19 19:58:14,667 INFO  [org.wildfly.security] (ServerService Thread Pool -- 27) ELY00001: WildFly Elytron version 1.19.0.Final
+2024-05-19 19:58:15,868 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+2024-05-19 19:58:15,905 INFO  [org.xnio] (MSC service thread 1-6) XNIO version 3.8.6.Final
+2024-05-19 19:58:15,920 INFO  [org.xnio.nio] (MSC service thread 1-6) XNIO NIO Implementation Version 3.8.6.Final
+2024-05-19 19:58:15,960 INFO  [org.jboss.as.jaxrs] (ServerService Thread Pool -- 56) WFLYRS0016: RESTEasy version 4.7.4.Final
+2024-05-19 19:58:15,991 INFO  [org.wildfly.extension.elytron.oidc._private] (ServerService Thread Pool -- 52) WFLYOIDC0001: Activating WildFly Elytron OIDC Subsystem
+2024-05-19 19:58:15,991 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 54) WFLYCLINF0001: Activating Infinispan subsystem.
+2024-05-19 19:58:15,994 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 55) WFLYIO001: Worker 'default' has auto-configured to 24 IO threads with 192 max task threads based on your 12 available processors
+2024-05-19 19:58:16,010 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 74) WFLYTX0013: The node-identifier attribute on the /subsystem=transactions is set to the default value. This is a danger for environments running multiple servers. Please make sure the attribute value is unique.
+2024-05-19 19:58:16,010 INFO  [org.wildfly.extension.microprofile.jwt.smallrye] (ServerService Thread Pool -- 65) WFLYJWT0001: Activating MicroProfile JWT Subsystem
+2024-05-19 19:58:16,016 INFO  [org.wildfly.extension.health] (ServerService Thread Pool -- 53) WFLYHEALTH0001: Activating Base Health Subsystem
+2024-05-19 19:58:16,017 INFO  [org.wildfly.extension.microprofile.config.smallrye] (ServerService Thread Pool -- 64) WFLYCONF0001: Activating MicroProfile Config Subsystem
+2024-05-19 19:58:16,060 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 61) WFLYJSF0007: Activated the following Jakarta Server Faces Implementations: [main]
+2024-05-19 19:58:16,070 INFO  [org.wildfly.extension.microprofile.opentracing] (ServerService Thread Pool -- 66) WFLYTRACEXT0001: Activating MicroProfile OpenTracing Subsystem
+2024-05-19 19:58:16,074 INFO  [org.wildfly.extension.metrics] (ServerService Thread Pool -- 63) WFLYMETRICS0001: Activating Base Metrics Subsystem
+2024-05-19 19:58:16,106 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 67) WFLYNAM0001: Activating Naming Subsystem
+2024-05-19 19:58:16,165 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 76) WFLYWS0002: Activating WebServices Extension
+2024-05-19 19:58:16,175 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0003: Undertow 2.2.16.Final starting
+2024-05-19 19:58:16,272 INFO  [org.jboss.as.connector] (MSC service thread 1-6) WFLYJCA0009: Starting Jakarta Connectors Subsystem (WildFly/IronJacamar 1.5.3.Final)
+2024-05-19 19:58:16,278 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 44) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 1.4)
+2024-05-19 19:58:16,310 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-8) WFLYJCA0018: Started Driver service with driver-name = h2
+2024-05-19 19:58:16,314 INFO  [org.jboss.as.naming] (MSC service thread 1-4) WFLYNAM0003: Starting Naming Service
+2024-05-19 19:58:16,318 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-8) WFLYMAIL0001: Bound mail session [java:jboss/mail/Default]
+2024-05-19 19:58:16,372 INFO  [org.jboss.remoting] (MSC service thread 1-3) JBoss Remoting version 5.0.24.Final
+2024-05-19 19:58:16,442 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 75) WFLYUT0014: Creating file handler for path 'c:\Users\gaeta\OneDrive\Dokumentumok\N7\aplli web\projet\sondage\Projet_appliweb\Outils\wildfly-26.1.0.Final/welcome-content' with options [directory-listing: 'false', follow-symlink: 'false', case-sensitive: 'true', safe-symlink-paths: '[]']
+2024-05-19 19:58:16,504 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0012: Started server default-server.
+2024-05-19 19:58:16,516 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) Queuing requests.
+2024-05-19 19:58:16,521 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0018: Host default-host starting
+2024-05-19 19:58:16,587 INFO  [org.jboss.as.ejb3] (MSC service thread 1-8) WFLYEJB0482: Strict pool mdb-strict-max-pool is using a max instance size of 48 (per class), which is derived from the number of CPUs on this host.
+2024-05-19 19:58:16,587 INFO  [org.jboss.as.ejb3] (MSC service thread 1-3) WFLYEJB0481: Strict pool slsb-strict-max-pool is using a max instance size of 192 (per class), which is derived from thread worker pool sizing.
+2024-05-19 19:58:16,628 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0006: Undertow HTTP listener default listening on 127.0.0.1:8080
+2024-05-19 19:58:16,830 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0006: Undertow HTTPS listener https listening on 127.0.0.1:8443
+2024-05-19 19:58:16,862 INFO  [org.jboss.as.ejb3] (MSC service thread 1-1) WFLYEJB0493: Jakarta Enterprise Beans subsystem suspension complete
+2024-05-19 19:58:16,935 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-4) WFLYJCA0001: Bound data source [java:jboss/datasources/ExampleDS]
+2024-05-19 19:58:17,125 INFO  [org.jboss.as.patching] (MSC service thread 1-6) WFLYPAT0050: WildFly Full cumulative patch ID is: base, one-off patches include: none
+2024-05-19 19:58:17,133 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-8) WFLYDS0013: Started FileSystemDeploymentService for directory c:\Users\gaeta\OneDrive\Dokumentumok\N7\aplli web\projet\sondage\Projet_appliweb\Outils\wildfly-26.1.0.Final\standalone\deployments
+2024-05-19 19:58:17,146 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0027: Starting deployment of "sondage.war" (runtime-name: "sondage.war")
+2024-05-19 19:58:17,299 INFO  [org.jboss.ws.common.management] (MSC service thread 1-5) JBWS022052: Starting JBossWS 5.4.4.Final (Apache CXF 3.4.5) 
+2024-05-19 19:58:17,735 INFO  [org.jboss.as.jpa] (MSC service thread 1-2) WFLYJPA0002: Read persistence.xml for MaPU
+2024-05-19 19:58:17,897 INFO  [org.jipijapa] (MSC service thread 1-7) JIPIORMV53020253: Second level cache enabled for sondage.war#MaPU
+2024-05-19 19:58:18,268 INFO  [org.jboss.weld.deployer] (MSC service thread 1-2) WFLYWELD0003: Processing weld deployment sondage.war
+2024-05-19 19:58:18,437 INFO  [org.hibernate.validator.internal.util.Version] (MSC service thread 1-2) HV000001: Hibernate Validator 6.0.23.Final
+2024-05-19 19:58:18,677 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-2) WFLYEJB0473: JNDI bindings for session bean named 'Facade' in deployment unit 'deployment "sondage.war"' are as follows:
 
 	java:global/sondage/Facade!vue.Facade
 	java:app/sondage/Facade!vue.Facade
@@ -135,513 +135,62 @@
 	java:app/sondage/Facade
 	java:module/Facade
 
-2024-05-16 08:47:26,158 INFO  [org.infinispan.CONTAINER] (ServerService Thread Pool -- 78) ISPN000128: Infinispan version: Infinispan 'Triskaidekaphobia' 13.0.8.Final
-2024-05-16 08:47:26,402 INFO  [org.infinispan.CONTAINER] (ServerService Thread Pool -- 78) ISPN000556: Starting user marshaller 'org.wildfly.clustering.infinispan.marshalling.jboss.JBossMarshaller'
-2024-05-16 08:47:26,452 INFO  [io.jaegertracing.internal.JaegerTracer] (MSC service thread 1-2) No shutdown hook registered: Please call close() manually on application shutdown.
-2024-05-16 08:47:26,454 INFO  [org.wildfly.microprofile.opentracing.smallrye] (MSC service thread 1-2) WFLYTRAC0001: Tracer initialized: JaegerTracer(version=Java-1.6.0, serviceName=sondage.war, reporter=RemoteReporter(sender=org.wildfly.extension.microprofile.opentracing.spi.sender.WildFlySender@63e5816e, closeEnqueueTimeout=1000), sampler=ConstSampler(decision=true, tags={sampler.type=const, sampler.param=true}), tags={hostname=Laptop_G, jaeger.version=Java-1.6.0, ip=172.22.226.137}, zipkinSharedRpcSpan=false, expandExceptionLogs=false, useTraceId128Bit=false)
-2024-05-16 08:47:26,525 INFO  [org.infinispan.CONTAINER] (ServerService Thread Pool -- 79) ISPN000556: Starting user marshaller 'org.wildfly.clustering.infinispan.spi.marshalling.InfinispanProtoStreamMarshaller'
-2024-05-16 08:47:26,652 INFO  [org.jipijapa] (MSC service thread 1-5) JIPIORMV53020253: Second level cache enabled for sondage.war#MaPU
-2024-05-16 08:47:26,755 INFO  [org.jboss.weld.Version] (MSC service thread 1-5) WELD-000900: 3.1.9 (Final)
-2024-05-16 08:47:27,233 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 79) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'sondage.war#MaPU'
-2024-05-16 08:47:27,251 INFO  [org.infinispan.CONFIG] (MSC service thread 1-7) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
-2024-05-16 08:47:27,252 INFO  [org.infinispan.CONFIG] (MSC service thread 1-7) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
-2024-05-16 08:47:27,274 INFO  [org.infinispan.CONTAINER] (ServerService Thread Pool -- 78) ISPN000025: wakeUpInterval is <= 0, not starting expired purge thread
-2024-05-16 08:47:27,279 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 78) WFLYCLINF0002: Started http-remoting-connector cache from ejb container
-2024-05-16 08:47:27,280 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 79) HHH000204: Processing PersistenceUnitInfo [
+2024-05-19 19:58:18,793 INFO  [org.infinispan.CONTAINER] (ServerService Thread Pool -- 78) ISPN000128: Infinispan version: Infinispan 'Triskaidekaphobia' 13.0.8.Final
+2024-05-19 19:58:18,992 INFO  [org.infinispan.CONTAINER] (ServerService Thread Pool -- 78) ISPN000556: Starting user marshaller 'org.wildfly.clustering.infinispan.marshalling.jboss.JBossMarshaller'
+2024-05-19 19:58:19,013 INFO  [io.jaegertracing.internal.JaegerTracer] (MSC service thread 1-2) No shutdown hook registered: Please call close() manually on application shutdown.
+2024-05-19 19:58:19,020 INFO  [org.wildfly.microprofile.opentracing.smallrye] (MSC service thread 1-2) WFLYTRAC0001: Tracer initialized: JaegerTracer(version=Java-1.6.0, serviceName=sondage.war, reporter=RemoteReporter(sender=org.wildfly.extension.microprofile.opentracing.spi.sender.WildFlySender@27feb30a, closeEnqueueTimeout=1000), sampler=ConstSampler(decision=true, tags={sampler.type=const, sampler.param=true}), tags={hostname=Laptop_G, jaeger.version=Java-1.6.0, ip=192.168.252.85}, zipkinSharedRpcSpan=false, expandExceptionLogs=false, useTraceId128Bit=false)
+2024-05-19 19:58:19,102 INFO  [org.infinispan.CONTAINER] (ServerService Thread Pool -- 79) ISPN000556: Starting user marshaller 'org.wildfly.clustering.infinispan.spi.marshalling.InfinispanProtoStreamMarshaller'
+2024-05-19 19:58:19,198 INFO  [org.jipijapa] (MSC service thread 1-7) JIPIORMV53020253: Second level cache enabled for sondage.war#MaPU
+2024-05-19 19:58:19,291 INFO  [org.jboss.weld.Version] (MSC service thread 1-7) WELD-000900: 3.1.9 (Final)
+2024-05-19 19:58:19,822 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 78) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'sondage.war#MaPU'
+2024-05-19 19:58:19,837 INFO  [org.infinispan.CONFIG] (MSC service thread 1-3) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2024-05-19 19:58:19,839 INFO  [org.infinispan.CONFIG] (MSC service thread 1-3) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2024-05-19 19:58:19,864 INFO  [org.infinispan.CONTAINER] (ServerService Thread Pool -- 79) ISPN000025: wakeUpInterval is <= 0, not starting expired purge thread
+2024-05-19 19:58:19,872 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 78) HHH000204: Processing PersistenceUnitInfo [
 	name: MaPU
 	...]
-2024-05-16 08:47:27,395 INFO  [org.hibernate.Version] (ServerService Thread Pool -- 79) HHH000412: Hibernate Core {5.3.24.Final}
-2024-05-16 08:47:27,397 INFO  [org.hibernate.cfg.Environment] (ServerService Thread Pool -- 79) HHH000206: hibernate.properties not found
-2024-05-16 08:47:27,619 INFO  [org.hibernate.annotations.common.Version] (ServerService Thread Pool -- 79) HCANN000001: Hibernate Commons Annotations {5.0.5.Final}
-2024-05-16 08:47:27,736 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 79) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'sondage.war#MaPU'
-2024-05-16 08:47:27,947 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 79) HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
-2024-05-16 08:47:28,013 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 79) Envers integration enabled? : true
-2024-05-16 08:47:28,517 INFO  [org.hibernate.tuple.PojoInstantiator] (ServerService Thread Pool -- 79) HHH000182: No default (no-argument) constructor for class: modele.Personne (class must be instantiated by Interceptor)
-2024-05-16 08:47:28,618 INFO  [stdout] (ServerService Thread Pool -- 79) Hibernate: drop table Historique if exists
-2024-05-16 08:47:28,623 INFO  [stdout] (ServerService Thread Pool -- 79) Hibernate: drop table Personne if exists
-2024-05-16 08:47:28,623 INFO  [stdout] (ServerService Thread Pool -- 79) Hibernate: drop table Sondage if exists
-2024-05-16 08:47:28,626 INFO  [stdout] (ServerService Thread Pool -- 79) Hibernate: create table Historique (id integer generated by default as identity, nom varchar(255), prenom varchar(255), primary key (id))
-2024-05-16 08:47:28,636 INFO  [stdout] (ServerService Thread Pool -- 79) Hibernate: create table Personne (id integer generated by default as identity, autorisation integer not null, mail varchar(255), mdp varchar(255), nom varchar(255), prenom varchar(255), primary key (id))
-2024-05-16 08:47:28,638 INFO  [stdout] (ServerService Thread Pool -- 79) Hibernate: create table Sondage (id integer generated by default as identity, rue varchar(255), ville varchar(255), owner_id integer, primary key (id))
-2024-05-16 08:47:28,639 INFO  [stdout] (ServerService Thread Pool -- 79) Hibernate: alter table Sondage add constraint FKc3yuhsvhuvhbppjdd6f4tjyyx foreign key (owner_id) references Historique
-2024-05-16 08:47:28,650 INFO  [org.hibernate.tool.schema.internal.SchemaCreatorImpl] (ServerService Thread Pool -- 79) HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@787460a4'
-2024-05-16 08:47:29,193 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 79) WFLYUT0021: Registered web context: '/sondage' for server 'default-server'
-2024-05-16 08:47:29,298 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 45) WFLYSRV0010: Deployed "sondage.war" (runtime-name : "sondage.war")
-2024-05-16 08:47:29,374 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Resuming server
-2024-05-16 08:47:29,378 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Full 26.1.0.Final (WildFly Core 18.1.0.Final) started in 9372ms - Started 470 of 650 services (341 services are lazy, passive or on-demand) - Server configuration file in use: standalone.xml
-2024-05-16 08:47:29,381 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
-2024-05-16 08:47:29,382 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9990
-2024-05-16 08:47:39,399 INFO  [org.jboss.as.repository] (DeploymentScanner-threads - 2) WFLYDR0001: Content added at location c:\Users\gaeta\OneDrive\Dokumentumok\N7\aplli web\projet\sondage\Projet_appliweb\Outils\wildfly-26.1.0.Final\standalone\data\content\40\c2a15f6351fd5322c718d9f197c765a929fea8\content
-2024-05-16 08:47:39,415 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 79) WFLYUT0022: Unregistered web context: '/sondage' from server 'default-server'
-2024-05-16 08:47:39,470 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 13) WFLYJPA0011: Stopping Persistence Unit (phase 2 of 2) Service 'sondage.war#MaPU'
-2024-05-16 08:47:39,472 INFO  [org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl] (ServerService Thread Pool -- 13) HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
-2024-05-16 08:47:39,475 INFO  [stdout] (ServerService Thread Pool -- 13) Hibernate: drop table Historique if exists
-2024-05-16 08:47:39,482 INFO  [stdout] (ServerService Thread Pool -- 13) Hibernate: drop table Personne if exists
-2024-05-16 08:47:39,485 INFO  [stdout] (ServerService Thread Pool -- 13) Hibernate: drop table Sondage if exists
-2024-05-16 08:47:39,488 INFO  [org.hibernate.orm.beans] (ServerService Thread Pool -- 13) HHH10005004: Stopping BeanContainer : org.hibernate.resource.beans.container.internal.CdiBeanContainerExtendedAccessImpl@5567eaff
-2024-05-16 08:47:39,492 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 13) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service 'sondage.war#MaPU'
-2024-05-16 08:47:39,547 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0028: Stopped deployment sondage.war (runtime-name: sondage.war) in 140ms
-2024-05-16 08:47:39,554 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0027: Starting deployment of "sondage.war" (runtime-name: "sondage.war")
-2024-05-16 08:47:39,704 INFO  [org.jboss.as.jpa] (MSC service thread 1-8) WFLYJPA0002: Read persistence.xml for MaPU
-2024-05-16 08:47:39,737 INFO  [org.jipijapa] (MSC service thread 1-2) JIPIORMV53020253: Second level cache enabled for sondage.war#MaPU
-2024-05-16 08:47:39,745 INFO  [org.jboss.weld.deployer] (MSC service thread 1-4) WFLYWELD0003: Processing weld deployment sondage.war
-2024-05-16 08:47:39,756 INFO  [org.infinispan.CONTAINER] (ServerService Thread Pool -- 13) ISPN000556: Starting user marshaller 'org.wildfly.clustering.infinispan.marshalling.jboss.JBossMarshaller'
-2024-05-16 08:47:39,776 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 13) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'sondage.war#MaPU'
-2024-05-16 08:47:39,777 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 13) HHH000204: Processing PersistenceUnitInfo [
-	name: MaPU
-	...]
-2024-05-16 08:47:39,780 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-4) WFLYEJB0473: JNDI bindings for session bean named 'Facade' in deployment unit 'deployment "sondage.war"' are as follows:
-
-	java:global/sondage/Facade!vue.Facade
-	java:app/sondage/Facade!vue.Facade
-	java:module/Facade!vue.Facade
-	java:global/sondage/Facade
-	java:app/sondage/Facade
-	java:module/Facade
-
-2024-05-16 08:47:39,849 INFO  [io.jaegertracing.internal.JaegerTracer] (MSC service thread 1-4) No shutdown hook registered: Please call close() manually on application shutdown.
-2024-05-16 08:47:39,849 INFO  [org.wildfly.microprofile.opentracing.smallrye] (MSC service thread 1-4) WFLYTRAC0001: Tracer initialized: JaegerTracer(version=Java-1.6.0, serviceName=sondage.war, reporter=RemoteReporter(sender=org.wildfly.extension.microprofile.opentracing.spi.sender.WildFlySender@2047cbae, closeEnqueueTimeout=1000), sampler=ConstSampler(decision=true, tags={sampler.type=const, sampler.param=true}), tags={hostname=Laptop_G, jaeger.version=Java-1.6.0, ip=172.22.226.137}, zipkinSharedRpcSpan=false, expandExceptionLogs=false, useTraceId128Bit=false)
-2024-05-16 08:47:39,864 INFO  [org.jipijapa] (MSC service thread 1-8) JIPIORMV53020253: Second level cache enabled for sondage.war#MaPU
-2024-05-16 08:47:39,951 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 13) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'sondage.war#MaPU'
-2024-05-16 08:47:39,952 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 13) HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
-2024-05-16 08:47:39,960 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 13) Envers integration enabled? : true
-2024-05-16 08:47:40,041 INFO  [org.hibernate.tuple.PojoInstantiator] (ServerService Thread Pool -- 13) HHH000182: No default (no-argument) constructor for class: modele.Personne (class must be instantiated by Interceptor)
-2024-05-16 08:47:40,056 INFO  [stdout] (ServerService Thread Pool -- 13) Hibernate: drop table Historique if exists
-2024-05-16 08:47:40,057 INFO  [stdout] (ServerService Thread Pool -- 13) Hibernate: drop table Personne if exists
-2024-05-16 08:47:40,057 INFO  [stdout] (ServerService Thread Pool -- 13) Hibernate: drop table Sondage if exists
-2024-05-16 08:47:40,058 INFO  [stdout] (ServerService Thread Pool -- 13) Hibernate: create table Historique (id integer generated by default as identity, nom varchar(255), prenom varchar(255), primary key (id))
-2024-05-16 08:47:40,059 INFO  [stdout] (ServerService Thread Pool -- 13) Hibernate: create table Personne (id integer generated by default as identity, autorisation integer not null, mail varchar(255), mdp varchar(255), nom varchar(255), prenom varchar(255), primary key (id))
-2024-05-16 08:47:40,061 INFO  [stdout] (ServerService Thread Pool -- 13) Hibernate: create table Sondage (id integer generated by default as identity, rue varchar(255), ville varchar(255), owner_id integer, primary key (id))
-2024-05-16 08:47:40,063 INFO  [stdout] (ServerService Thread Pool -- 13) Hibernate: alter table Sondage add constraint FKc3yuhsvhuvhbppjdd6f4tjyyx foreign key (owner_id) references Historique
-2024-05-16 08:47:40,067 INFO  [org.hibernate.tool.schema.internal.SchemaCreatorImpl] (ServerService Thread Pool -- 13) HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@787460a4'
-2024-05-16 08:47:40,252 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 13) WFLYUT0021: Registered web context: '/sondage' for server 'default-server'
-2024-05-16 08:47:40,308 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 2) WFLYSRV0016: Replaced deployment "sondage.war" with deployment "sondage.war"
-2024-05-16 08:47:40,313 INFO  [org.jboss.as.repository] (DeploymentScanner-threads - 2) WFLYDR0002: Content removed from location c:\Users\gaeta\OneDrive\Dokumentumok\N7\aplli web\projet\sondage\Projet_appliweb\Outils\wildfly-26.1.0.Final\standalone\data\content\47\6d4a5a5df7467bbe550f0d7883c88fc154aaa0\content
-2024-05-16 08:55:36,609 INFO  [org.jboss.as.repository] (DeploymentScanner-threads - 1) WFLYDR0001: Content added at location c:\Users\gaeta\OneDrive\Dokumentumok\N7\aplli web\projet\sondage\Projet_appliweb\Outils\wildfly-26.1.0.Final\standalone\data\content\61\eca8e48a2cc758f1bebd0ac7ae8997b05ed31e\content
-2024-05-16 08:55:36,613 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 13) WFLYUT0022: Unregistered web context: '/sondage' from server 'default-server'
-2024-05-16 08:55:36,623 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 87) WFLYJPA0011: Stopping Persistence Unit (phase 2 of 2) Service 'sondage.war#MaPU'
-2024-05-16 08:55:36,624 INFO  [org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl] (ServerService Thread Pool -- 87) HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
-2024-05-16 08:55:36,624 INFO  [stdout] (ServerService Thread Pool -- 87) Hibernate: drop table Historique if exists
-2024-05-16 08:55:36,627 INFO  [stdout] (ServerService Thread Pool -- 87) Hibernate: drop table Personne if exists
-2024-05-16 08:55:36,628 INFO  [stdout] (ServerService Thread Pool -- 87) Hibernate: drop table Sondage if exists
-2024-05-16 08:55:36,629 INFO  [org.hibernate.orm.beans] (ServerService Thread Pool -- 87) HHH10005004: Stopping BeanContainer : org.hibernate.resource.beans.container.internal.CdiBeanContainerExtendedAccessImpl@597b8e19
-2024-05-16 08:55:36,630 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 87) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service 'sondage.war#MaPU'
-2024-05-16 08:55:36,681 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0028: Stopped deployment sondage.war (runtime-name: sondage.war) in 69ms
-2024-05-16 08:55:36,685 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0027: Starting deployment of "sondage.war" (runtime-name: "sondage.war")
-2024-05-16 08:55:36,863 INFO  [org.jboss.as.jpa] (MSC service thread 1-5) WFLYJPA0002: Read persistence.xml for MaPU
-2024-05-16 08:55:36,900 INFO  [org.jipijapa] (MSC service thread 1-2) JIPIORMV53020253: Second level cache enabled for sondage.war#MaPU
-2024-05-16 08:55:36,911 INFO  [org.jboss.weld.deployer] (MSC service thread 1-7) WFLYWELD0003: Processing weld deployment sondage.war
-2024-05-16 08:55:36,921 INFO  [org.infinispan.CONTAINER] (ServerService Thread Pool -- 87) ISPN000556: Starting user marshaller 'org.wildfly.clustering.infinispan.marshalling.jboss.JBossMarshaller'
-2024-05-16 08:55:36,947 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-7) WFLYEJB0473: JNDI bindings for session bean named 'Facade' in deployment unit 'deployment "sondage.war"' are as follows:
-
-	java:global/sondage/Facade!vue.Facade
-	java:app/sondage/Facade!vue.Facade
-	java:module/Facade!vue.Facade
-	java:global/sondage/Facade
-	java:app/sondage/Facade
-	java:module/Facade
-
-2024-05-16 08:55:36,951 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 87) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'sondage.war#MaPU'
-2024-05-16 08:55:36,951 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 87) HHH000204: Processing PersistenceUnitInfo [
-	name: MaPU
-	...]
-2024-05-16 08:55:37,032 INFO  [io.jaegertracing.internal.JaegerTracer] (MSC service thread 1-7) No shutdown hook registered: Please call close() manually on application shutdown.
-2024-05-16 08:55:37,033 INFO  [org.wildfly.microprofile.opentracing.smallrye] (MSC service thread 1-7) WFLYTRAC0001: Tracer initialized: JaegerTracer(version=Java-1.6.0, serviceName=sondage.war, reporter=RemoteReporter(sender=org.wildfly.extension.microprofile.opentracing.spi.sender.WildFlySender@b279b5d, closeEnqueueTimeout=1000), sampler=ConstSampler(decision=true, tags={sampler.type=const, sampler.param=true}), tags={hostname=Laptop_G, jaeger.version=Java-1.6.0, ip=172.22.226.137}, zipkinSharedRpcSpan=false, expandExceptionLogs=false, useTraceId128Bit=false)
-2024-05-16 08:55:37,046 INFO  [org.jipijapa] (MSC service thread 1-4) JIPIORMV53020253: Second level cache enabled for sondage.war#MaPU
-2024-05-16 08:55:37,136 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 87) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'sondage.war#MaPU'
-2024-05-16 08:55:37,137 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 87) HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
-2024-05-16 08:55:37,150 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 87) Envers integration enabled? : true
-2024-05-16 08:55:37,305 INFO  [org.hibernate.tuple.PojoInstantiator] (ServerService Thread Pool -- 87) HHH000182: No default (no-argument) constructor for class: modele.Personne (class must be instantiated by Interceptor)
-2024-05-16 08:55:37,330 INFO  [stdout] (ServerService Thread Pool -- 87) Hibernate: drop table Historique if exists
-2024-05-16 08:55:37,330 INFO  [stdout] (ServerService Thread Pool -- 87) Hibernate: drop table Personne if exists
-2024-05-16 08:55:37,331 INFO  [stdout] (ServerService Thread Pool -- 87) Hibernate: drop table Sondage if exists
-2024-05-16 08:55:37,332 INFO  [stdout] (ServerService Thread Pool -- 87) Hibernate: create table Historique (id integer generated by default as identity, nom varchar(255), prenom varchar(255), primary key (id))
-2024-05-16 08:55:37,335 INFO  [stdout] (ServerService Thread Pool -- 87) Hibernate: create table Personne (id integer generated by default as identity, autorisation integer not null, mail varchar(255), mdp varchar(255), nom varchar(255), prenom varchar(255), primary key (id))
-2024-05-16 08:55:37,337 INFO  [stdout] (ServerService Thread Pool -- 87) Hibernate: create table Sondage (id integer generated by default as identity, rue varchar(255), ville varchar(255), owner_id integer, primary key (id))
-2024-05-16 08:55:37,340 INFO  [stdout] (ServerService Thread Pool -- 87) Hibernate: alter table Sondage add constraint FKc3yuhsvhuvhbppjdd6f4tjyyx foreign key (owner_id) references Historique
-2024-05-16 08:55:37,347 INFO  [org.hibernate.tool.schema.internal.SchemaCreatorImpl] (ServerService Thread Pool -- 87) HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@787460a4'
-2024-05-16 08:55:37,466 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 86) WFLYUT0021: Registered web context: '/sondage' for server 'default-server'
-2024-05-16 08:55:37,514 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 1) WFLYSRV0016: Replaced deployment "sondage.war" with deployment "sondage.war"
-2024-05-16 08:55:37,514 INFO  [org.jboss.as.repository] (DeploymentScanner-threads - 1) WFLYDR0002: Content removed from location c:\Users\gaeta\OneDrive\Dokumentumok\N7\aplli web\projet\sondage\Projet_appliweb\Outils\wildfly-26.1.0.Final\standalone\data\content\40\c2a15f6351fd5322c718d9f197c765a929fea8\content
-2024-05-16 08:55:47,555 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 86) WFLYUT0022: Unregistered web context: '/sondage' from server 'default-server'
-2024-05-16 08:55:47,575 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 89) WFLYJPA0011: Stopping Persistence Unit (phase 2 of 2) Service 'sondage.war#MaPU'
-2024-05-16 08:55:47,576 INFO  [org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl] (ServerService Thread Pool -- 89) HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
-2024-05-16 08:55:47,577 INFO  [stdout] (ServerService Thread Pool -- 89) Hibernate: drop table Historique if exists
-2024-05-16 08:55:47,580 INFO  [stdout] (ServerService Thread Pool -- 89) Hibernate: drop table Personne if exists
-2024-05-16 08:55:47,582 INFO  [stdout] (ServerService Thread Pool -- 89) Hibernate: drop table Sondage if exists
-2024-05-16 08:55:47,583 INFO  [org.hibernate.orm.beans] (ServerService Thread Pool -- 89) HHH10005004: Stopping BeanContainer : org.hibernate.resource.beans.container.internal.CdiBeanContainerExtendedAccessImpl@4e61694d
-2024-05-16 08:55:47,585 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 89) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service 'sondage.war#MaPU'
-2024-05-16 08:55:47,612 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0028: Stopped deployment sondage.war (runtime-name: sondage.war) in 59ms
-2024-05-16 08:55:47,647 INFO  [org.jboss.as.repository] (DeploymentScanner-threads - 1) WFLYDR0002: Content removed from location c:\Users\gaeta\OneDrive\Dokumentumok\N7\aplli web\projet\sondage\Projet_appliweb\Outils\wildfly-26.1.0.Final\standalone\data\content\61\eca8e48a2cc758f1bebd0ac7ae8997b05ed31e\content
-2024-05-16 08:55:47,647 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 1) WFLYSRV0009: Undeployed "sondage.war" (runtime-name: "sondage.war")
-2024-05-16 08:57:07,707 INFO  [org.jboss.as.repository] (DeploymentScanner-threads - 1) WFLYDR0001: Content added at location c:\Users\gaeta\OneDrive\Dokumentumok\N7\aplli web\projet\sondage\Projet_appliweb\Outils\wildfly-26.1.0.Final\standalone\data\content\45\66f974cb6c3a23173e65345abcf2ce350168d3\content
-2024-05-16 08:57:07,709 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0027: Starting deployment of "sondage.war" (runtime-name: "sondage.war")
-2024-05-16 08:57:07,799 INFO  [org.jboss.as.jpa] (MSC service thread 1-2) WFLYJPA0002: Read persistence.xml for MaPU
-2024-05-16 08:57:07,818 INFO  [org.jipijapa] (MSC service thread 1-3) JIPIORMV53020253: Second level cache enabled for sondage.war#MaPU
-2024-05-16 08:57:07,826 INFO  [org.jboss.weld.deployer] (MSC service thread 1-7) WFLYWELD0003: Processing weld deployment sondage.war
-2024-05-16 08:57:07,835 INFO  [org.infinispan.CONTAINER] (ServerService Thread Pool -- 89) ISPN000556: Starting user marshaller 'org.wildfly.clustering.infinispan.marshalling.jboss.JBossMarshaller'
-2024-05-16 08:57:07,852 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-7) WFLYEJB0473: JNDI bindings for session bean named 'Facade' in deployment unit 'deployment "sondage.war"' are as follows:
-
-	java:global/sondage/Facade!vue.Facade
-	java:app/sondage/Facade!vue.Facade
-	java:module/Facade!vue.Facade
-	java:global/sondage/Facade
-	java:app/sondage/Facade
-	java:module/Facade
-
-2024-05-16 08:57:07,854 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 89) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'sondage.war#MaPU'
-2024-05-16 08:57:07,854 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 89) HHH000204: Processing PersistenceUnitInfo [
-	name: MaPU
-	...]
-2024-05-16 08:57:07,897 INFO  [io.jaegertracing.internal.JaegerTracer] (MSC service thread 1-7) No shutdown hook registered: Please call close() manually on application shutdown.
-2024-05-16 08:57:07,897 INFO  [org.wildfly.microprofile.opentracing.smallrye] (MSC service thread 1-7) WFLYTRAC0001: Tracer initialized: JaegerTracer(version=Java-1.6.0, serviceName=sondage.war, reporter=RemoteReporter(sender=org.wildfly.extension.microprofile.opentracing.spi.sender.WildFlySender@5dead36b, closeEnqueueTimeout=1000), sampler=ConstSampler(decision=true, tags={sampler.type=const, sampler.param=true}), tags={hostname=Laptop_G, jaeger.version=Java-1.6.0, ip=172.22.226.137}, zipkinSharedRpcSpan=false, expandExceptionLogs=false, useTraceId128Bit=false)
-2024-05-16 08:57:07,909 INFO  [org.jipijapa] (MSC service thread 1-7) JIPIORMV53020253: Second level cache enabled for sondage.war#MaPU
-2024-05-16 08:57:08,006 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 89) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'sondage.war#MaPU'
-2024-05-16 08:57:08,008 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 89) HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
-2024-05-16 08:57:08,022 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 89) Envers integration enabled? : true
-2024-05-16 08:57:08,088 INFO  [org.hibernate.tuple.PojoInstantiator] (ServerService Thread Pool -- 89) HHH000182: No default (no-argument) constructor for class: modele.Personne (class must be instantiated by Interceptor)
-2024-05-16 08:57:08,100 INFO  [stdout] (ServerService Thread Pool -- 89) Hibernate: drop table Historique if exists
-2024-05-16 08:57:08,100 INFO  [stdout] (ServerService Thread Pool -- 89) Hibernate: drop table Personne if exists
-2024-05-16 08:57:08,101 INFO  [stdout] (ServerService Thread Pool -- 89) Hibernate: drop table Sondage if exists
-2024-05-16 08:57:08,102 INFO  [stdout] (ServerService Thread Pool -- 89) Hibernate: create table Historique (id integer generated by default as identity, nom varchar(255), prenom varchar(255), primary key (id))
-2024-05-16 08:57:08,103 INFO  [stdout] (ServerService Thread Pool -- 89) Hibernate: create table Personne (id integer generated by default as identity, autorisation integer not null, mail varchar(255), mdp varchar(255), nom varchar(255), prenom varchar(255), primary key (id))
-2024-05-16 08:57:08,105 INFO  [stdout] (ServerService Thread Pool -- 89) Hibernate: create table Sondage (id integer generated by default as identity, rue varchar(255), ville varchar(255), owner_id integer, primary key (id))
-2024-05-16 08:57:08,105 INFO  [stdout] (ServerService Thread Pool -- 89) Hibernate: alter table Sondage add constraint FKc3yuhsvhuvhbppjdd6f4tjyyx foreign key (owner_id) references Historique
-2024-05-16 08:57:08,110 INFO  [org.hibernate.tool.schema.internal.SchemaCreatorImpl] (ServerService Thread Pool -- 89) HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@787460a4'
-2024-05-16 08:57:08,234 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 90) WFLYUT0021: Registered web context: '/sondage' for server 'default-server'
-2024-05-16 08:57:08,267 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 1) WFLYSRV0010: Deployed "sondage.war" (runtime-name : "sondage.war")
-2024-05-16 08:57:21,724 INFO  [org.jboss.as.repository] (ServerService Thread Pool -- 84) WFLYDR0009: Content c:\Users\gaeta\OneDrive\Dokumentumok\N7\aplli web\projet\sondage\Projet_appliweb\Outils\wildfly-26.1.0.Final\standalone\data\content\8f\2ad47a9ee74b2329dc5768df1a175611dada8e is obsolete and will be removed
-2024-05-16 08:57:21,729 INFO  [org.jboss.as.repository] (ServerService Thread Pool -- 84) WFLYDR0002: Content removed from location c:\Users\gaeta\OneDrive\Dokumentumok\N7\aplli web\projet\sondage\Projet_appliweb\Outils\wildfly-26.1.0.Final\standalone\data\content\8f\2ad47a9ee74b2329dc5768df1a175611dada8e\content
-2024-05-16 08:57:21,729 INFO  [org.jboss.as.repository] (ServerService Thread Pool -- 84) WFLYDR0009: Content c:\Users\gaeta\OneDrive\Dokumentumok\N7\aplli web\projet\sondage\Projet_appliweb\Outils\wildfly-26.1.0.Final\standalone\data\content\81\fda1791670e76187532e4c7cdd228140fd1d5d is obsolete and will be removed
-2024-05-16 08:57:21,734 INFO  [org.jboss.as.repository] (ServerService Thread Pool -- 84) WFLYDR0002: Content removed from location c:\Users\gaeta\OneDrive\Dokumentumok\N7\aplli web\projet\sondage\Projet_appliweb\Outils\wildfly-26.1.0.Final\standalone\data\content\81\fda1791670e76187532e4c7cdd228140fd1d5d\content
-2024-05-16 08:57:21,734 INFO  [org.jboss.as.repository] (ServerService Thread Pool -- 84) WFLYDR0009: Content c:\Users\gaeta\OneDrive\Dokumentumok\N7\aplli web\projet\sondage\Projet_appliweb\Outils\wildfly-26.1.0.Final\standalone\data\content\c4\b055f5bf59081ce14c857ef8faa6f2d3436d47 is obsolete and will be removed
-2024-05-16 08:57:21,745 INFO  [org.jboss.as.repository] (ServerService Thread Pool -- 84) WFLYDR0002: Content removed from location c:\Users\gaeta\OneDrive\Dokumentumok\N7\aplli web\projet\sondage\Projet_appliweb\Outils\wildfly-26.1.0.Final\standalone\data\content\c4\b055f5bf59081ce14c857ef8faa6f2d3436d47\content
-2024-05-16 08:59:38,529 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 90) WFLYUT0022: Unregistered web context: '/sondage' from server 'default-server'
-2024-05-16 08:59:38,549 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 95) WFLYJPA0011: Stopping Persistence Unit (phase 2 of 2) Service 'sondage.war#MaPU'
-2024-05-16 08:59:38,550 INFO  [org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl] (ServerService Thread Pool -- 95) HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
-2024-05-16 08:59:38,551 INFO  [stdout] (ServerService Thread Pool -- 95) Hibernate: drop table Historique if exists
-2024-05-16 08:59:38,555 INFO  [stdout] (ServerService Thread Pool -- 95) Hibernate: drop table Personne if exists
-2024-05-16 08:59:38,558 INFO  [stdout] (ServerService Thread Pool -- 95) Hibernate: drop table Sondage if exists
-2024-05-16 08:59:38,559 INFO  [org.hibernate.orm.beans] (ServerService Thread Pool -- 95) HHH10005004: Stopping BeanContainer : org.hibernate.resource.beans.container.internal.CdiBeanContainerExtendedAccessImpl@1435008c
-2024-05-16 08:59:38,561 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 95) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service 'sondage.war#MaPU'
-2024-05-16 08:59:38,608 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0028: Stopped deployment sondage.war (runtime-name: sondage.war) in 81ms
-2024-05-16 08:59:38,638 INFO  [org.jboss.as.repository] (DeploymentScanner-threads - 1) WFLYDR0002: Content removed from location c:\Users\gaeta\OneDrive\Dokumentumok\N7\aplli web\projet\sondage\Projet_appliweb\Outils\wildfly-26.1.0.Final\standalone\data\content\45\66f974cb6c3a23173e65345abcf2ce350168d3\content
-2024-05-16 08:59:38,638 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 1) WFLYSRV0009: Undeployed "sondage.war" (runtime-name: "sondage.war")
-2024-05-16 09:00:38,704 INFO  [org.jboss.as.repository] (DeploymentScanner-threads - 1) WFLYDR0001: Content added at location c:\Users\gaeta\OneDrive\Dokumentumok\N7\aplli web\projet\sondage\Projet_appliweb\Outils\wildfly-26.1.0.Final\standalone\data\content\bb\c1d11fa435ee3fcd43ffe1ae5070e6366b7ccd\content
-2024-05-16 09:00:38,714 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0027: Starting deployment of "sondage.war" (runtime-name: "sondage.war")
-2024-05-16 09:00:38,834 INFO  [org.jboss.as.jpa] (MSC service thread 1-1) WFLYJPA0002: Read persistence.xml for MaPU
-2024-05-16 09:00:38,857 INFO  [org.jipijapa] (MSC service thread 1-5) JIPIORMV53020253: Second level cache enabled for sondage.war#MaPU
-2024-05-16 09:00:38,866 INFO  [org.jboss.weld.deployer] (MSC service thread 1-6) WFLYWELD0003: Processing weld deployment sondage.war
-2024-05-16 09:00:38,875 INFO  [org.infinispan.CONTAINER] (ServerService Thread Pool -- 95) ISPN000556: Starting user marshaller 'org.wildfly.clustering.infinispan.marshalling.jboss.JBossMarshaller'
-2024-05-16 09:00:38,891 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-6) WFLYEJB0473: JNDI bindings for session bean named 'Facade' in deployment unit 'deployment "sondage.war"' are as follows:
-
-	java:global/sondage/Facade!vue.Facade
-	java:app/sondage/Facade!vue.Facade
-	java:module/Facade!vue.Facade
-	java:global/sondage/Facade
-	java:app/sondage/Facade
-	java:module/Facade
-
-2024-05-16 09:00:38,896 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 95) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'sondage.war#MaPU'
-2024-05-16 09:00:38,896 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 95) HHH000204: Processing PersistenceUnitInfo [
-	name: MaPU
-	...]
-2024-05-16 09:00:38,943 INFO  [io.jaegertracing.internal.JaegerTracer] (MSC service thread 1-6) No shutdown hook registered: Please call close() manually on application shutdown.
-2024-05-16 09:00:38,944 INFO  [org.wildfly.microprofile.opentracing.smallrye] (MSC service thread 1-6) WFLYTRAC0001: Tracer initialized: JaegerTracer(version=Java-1.6.0, serviceName=sondage.war, reporter=RemoteReporter(sender=org.wildfly.extension.microprofile.opentracing.spi.sender.WildFlySender@1f7bef1a, closeEnqueueTimeout=1000), sampler=ConstSampler(decision=true, tags={sampler.type=const, sampler.param=true}), tags={hostname=Laptop_G, jaeger.version=Java-1.6.0, ip=172.22.226.137}, zipkinSharedRpcSpan=false, expandExceptionLogs=false, useTraceId128Bit=false)
-2024-05-16 09:00:38,960 INFO  [org.jipijapa] (MSC service thread 1-1) JIPIORMV53020253: Second level cache enabled for sondage.war#MaPU
-2024-05-16 09:00:39,003 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 95) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'sondage.war#MaPU'
-2024-05-16 09:00:39,005 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 95) HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
-2024-05-16 09:00:39,010 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 95) Envers integration enabled? : true
-2024-05-16 09:00:39,094 INFO  [org.hibernate.tuple.PojoInstantiator] (ServerService Thread Pool -- 95) HHH000182: No default (no-argument) constructor for class: modele.Personne (class must be instantiated by Interceptor)
-2024-05-16 09:00:39,119 INFO  [stdout] (ServerService Thread Pool -- 95) Hibernate: drop table Historique if exists
-2024-05-16 09:00:39,119 INFO  [stdout] (ServerService Thread Pool -- 95) Hibernate: drop table Personne if exists
-2024-05-16 09:00:39,120 INFO  [stdout] (ServerService Thread Pool -- 95) Hibernate: drop table Sondage if exists
-2024-05-16 09:00:39,121 INFO  [stdout] (ServerService Thread Pool -- 95) Hibernate: create table Historique (id integer generated by default as identity, nom varchar(255), prenom varchar(255), primary key (id))
-2024-05-16 09:00:39,124 INFO  [stdout] (ServerService Thread Pool -- 95) Hibernate: create table Personne (id integer generated by default as identity, autorisation integer not null, mail varchar(255), mdp varchar(255), nom varchar(255), prenom varchar(255), primary key (id))
-2024-05-16 09:00:39,126 INFO  [stdout] (ServerService Thread Pool -- 95) Hibernate: create table Sondage (id integer generated by default as identity, rue varchar(255), ville varchar(255), owner_id integer, primary key (id))
-2024-05-16 09:00:39,127 INFO  [stdout] (ServerService Thread Pool -- 95) Hibernate: alter table Sondage add constraint FKc3yuhsvhuvhbppjdd6f4tjyyx foreign key (owner_id) references Historique
-2024-05-16 09:00:39,138 INFO  [org.hibernate.tool.schema.internal.SchemaCreatorImpl] (ServerService Thread Pool -- 95) HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@787460a4'
-2024-05-16 09:00:39,298 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 97) WFLYUT0021: Registered web context: '/sondage' for server 'default-server'
-2024-05-16 09:00:39,345 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 1) WFLYSRV0010: Deployed "sondage.war" (runtime-name : "sondage.war")
-2024-05-16 09:03:14,651 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 97) WFLYUT0022: Unregistered web context: '/sondage' from server 'default-server'
-2024-05-16 09:03:14,659 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 102) WFLYJPA0011: Stopping Persistence Unit (phase 2 of 2) Service 'sondage.war#MaPU'
-2024-05-16 09:03:14,660 INFO  [org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl] (ServerService Thread Pool -- 102) HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
-2024-05-16 09:03:14,660 INFO  [stdout] (ServerService Thread Pool -- 102) Hibernate: drop table Historique if exists
-2024-05-16 09:03:14,662 INFO  [stdout] (ServerService Thread Pool -- 102) Hibernate: drop table Personne if exists
-2024-05-16 09:03:14,663 INFO  [stdout] (ServerService Thread Pool -- 102) Hibernate: drop table Sondage if exists
-2024-05-16 09:03:14,664 INFO  [org.hibernate.orm.beans] (ServerService Thread Pool -- 102) HHH10005004: Stopping BeanContainer : org.hibernate.resource.beans.container.internal.CdiBeanContainerExtendedAccessImpl@6ec755b0
-2024-05-16 09:03:14,665 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 102) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service 'sondage.war#MaPU'
-2024-05-16 09:03:14,681 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0028: Stopped deployment sondage.war (runtime-name: sondage.war) in 30ms
-2024-05-16 09:03:14,716 INFO  [org.jboss.as.repository] (DeploymentScanner-threads - 1) WFLYDR0002: Content removed from location c:\Users\gaeta\OneDrive\Dokumentumok\N7\aplli web\projet\sondage\Projet_appliweb\Outils\wildfly-26.1.0.Final\standalone\data\content\bb\c1d11fa435ee3fcd43ffe1ae5070e6366b7ccd\content
-2024-05-16 09:03:14,716 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 1) WFLYSRV0009: Undeployed "sondage.war" (runtime-name: "sondage.war")
-2024-05-16 09:03:24,740 INFO  [org.jboss.as.repository] (DeploymentScanner-threads - 1) WFLYDR0001: Content added at location c:\Users\gaeta\OneDrive\Dokumentumok\N7\aplli web\projet\sondage\Projet_appliweb\Outils\wildfly-26.1.0.Final\standalone\data\content\0d\cb0eed897905f20bc0754f6dfa05780071b99c\content
-2024-05-16 09:03:24,744 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0027: Starting deployment of "sondage.war" (runtime-name: "sondage.war")
-2024-05-16 09:03:24,819 INFO  [org.jboss.as.jpa] (MSC service thread 1-4) WFLYJPA0002: Read persistence.xml for MaPU
-2024-05-16 09:03:24,842 INFO  [org.jipijapa] (MSC service thread 1-8) JIPIORMV53020253: Second level cache enabled for sondage.war#MaPU
-2024-05-16 09:03:24,849 INFO  [org.jboss.weld.deployer] (MSC service thread 1-1) WFLYWELD0003: Processing weld deployment sondage.war
-2024-05-16 09:03:24,855 INFO  [org.infinispan.CONTAINER] (ServerService Thread Pool -- 102) ISPN000556: Starting user marshaller 'org.wildfly.clustering.infinispan.marshalling.jboss.JBossMarshaller'
-2024-05-16 09:03:24,870 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-1) WFLYEJB0473: JNDI bindings for session bean named 'Facade' in deployment unit 'deployment "sondage.war"' are as follows:
-
-	java:global/sondage/Facade!vue.Facade
-	java:app/sondage/Facade!vue.Facade
-	java:module/Facade!vue.Facade
-	java:global/sondage/Facade
-	java:app/sondage/Facade
-	java:module/Facade
-
-2024-05-16 09:03:24,872 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 102) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'sondage.war#MaPU'
-2024-05-16 09:03:24,872 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 102) HHH000204: Processing PersistenceUnitInfo [
-	name: MaPU
-	...]
-2024-05-16 09:03:24,912 INFO  [io.jaegertracing.internal.JaegerTracer] (MSC service thread 1-1) No shutdown hook registered: Please call close() manually on application shutdown.
-2024-05-16 09:03:24,912 INFO  [org.wildfly.microprofile.opentracing.smallrye] (MSC service thread 1-1) WFLYTRAC0001: Tracer initialized: JaegerTracer(version=Java-1.6.0, serviceName=sondage.war, reporter=RemoteReporter(sender=org.wildfly.extension.microprofile.opentracing.spi.sender.WildFlySender@19d2b150, closeEnqueueTimeout=1000), sampler=ConstSampler(decision=true, tags={sampler.type=const, sampler.param=true}), tags={hostname=Laptop_G, jaeger.version=Java-1.6.0, ip=172.22.226.137}, zipkinSharedRpcSpan=false, expandExceptionLogs=false, useTraceId128Bit=false)
-2024-05-16 09:03:24,921 INFO  [org.jipijapa] (MSC service thread 1-7) JIPIORMV53020253: Second level cache enabled for sondage.war#MaPU
-2024-05-16 09:03:24,949 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 102) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'sondage.war#MaPU'
-2024-05-16 09:03:24,950 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 102) HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
-2024-05-16 09:03:24,953 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 102) Envers integration enabled? : true
-2024-05-16 09:03:25,003 INFO  [org.hibernate.tuple.PojoInstantiator] (ServerService Thread Pool -- 102) HHH000182: No default (no-argument) constructor for class: modele.Personne (class must be instantiated by Interceptor)
-2024-05-16 09:03:25,018 INFO  [stdout] (ServerService Thread Pool -- 102) Hibernate: drop table Historique if exists
-2024-05-16 09:03:25,019 INFO  [stdout] (ServerService Thread Pool -- 102) Hibernate: drop table Personne if exists
-2024-05-16 09:03:25,019 INFO  [stdout] (ServerService Thread Pool -- 102) Hibernate: drop table Sondage if exists
-2024-05-16 09:03:25,020 INFO  [stdout] (ServerService Thread Pool -- 102) Hibernate: create table Historique (id integer generated by default as identity, nom varchar(255), prenom varchar(255), primary key (id))
-2024-05-16 09:03:25,021 INFO  [stdout] (ServerService Thread Pool -- 102) Hibernate: create table Personne (id integer generated by default as identity, autorisation integer not null, mail varchar(255), mdp varchar(255), nom varchar(255), prenom varchar(255), primary key (id))
-2024-05-16 09:03:25,022 INFO  [stdout] (ServerService Thread Pool -- 102) Hibernate: create table Sondage (id integer generated by default as identity, rue varchar(255), ville varchar(255), owner_id integer, primary key (id))
-2024-05-16 09:03:25,023 INFO  [stdout] (ServerService Thread Pool -- 102) Hibernate: alter table Sondage add constraint FKc3yuhsvhuvhbppjdd6f4tjyyx foreign key (owner_id) references Historique
-2024-05-16 09:03:25,028 INFO  [org.hibernate.tool.schema.internal.SchemaCreatorImpl] (ServerService Thread Pool -- 102) HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@787460a4'
-2024-05-16 09:03:25,139 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 101) WFLYUT0021: Registered web context: '/sondage' for server 'default-server'
-2024-05-16 09:03:25,163 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 1) WFLYSRV0010: Deployed "sondage.war" (runtime-name : "sondage.war")
-2024-05-16 09:27:17,739 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 101) WFLYUT0022: Unregistered web context: '/sondage' from server 'default-server'
-2024-05-16 09:27:17,747 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 107) WFLYJPA0011: Stopping Persistence Unit (phase 2 of 2) Service 'sondage.war#MaPU'
-2024-05-16 09:27:17,747 INFO  [org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl] (ServerService Thread Pool -- 107) HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
-2024-05-16 09:27:17,748 INFO  [stdout] (ServerService Thread Pool -- 107) Hibernate: drop table Historique if exists
-2024-05-16 09:27:17,749 INFO  [stdout] (ServerService Thread Pool -- 107) Hibernate: drop table Personne if exists
-2024-05-16 09:27:17,749 INFO  [stdout] (ServerService Thread Pool -- 107) Hibernate: drop table Sondage if exists
-2024-05-16 09:27:17,750 INFO  [org.hibernate.orm.beans] (ServerService Thread Pool -- 107) HHH10005004: Stopping BeanContainer : org.hibernate.resource.beans.container.internal.CdiBeanContainerExtendedAccessImpl@af328ad
-2024-05-16 09:27:17,751 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 107) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service 'sondage.war#MaPU'
-2024-05-16 09:27:17,765 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0028: Stopped deployment sondage.war (runtime-name: sondage.war) in 26ms
-2024-05-16 09:27:17,793 INFO  [org.jboss.as.repository] (DeploymentScanner-threads - 1) WFLYDR0002: Content removed from location c:\Users\gaeta\OneDrive\Dokumentumok\N7\aplli web\projet\sondage\Projet_appliweb\Outils\wildfly-26.1.0.Final\standalone\data\content\0d\cb0eed897905f20bc0754f6dfa05780071b99c\content
-2024-05-16 09:27:17,793 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 1) WFLYSRV0009: Undeployed "sondage.war" (runtime-name: "sondage.war")
-2024-05-16 09:27:42,817 INFO  [org.jboss.as.repository] (DeploymentScanner-threads - 1) WFLYDR0001: Content added at location c:\Users\gaeta\OneDrive\Dokumentumok\N7\aplli web\projet\sondage\Projet_appliweb\Outils\wildfly-26.1.0.Final\standalone\data\content\81\68dafb368aef82a33a25fd1f1fb34118932bda\content
-2024-05-16 09:27:42,822 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0027: Starting deployment of "sondage.war" (runtime-name: "sondage.war")
-2024-05-16 09:27:42,949 INFO  [org.jboss.as.jpa] (MSC service thread 1-1) WFLYJPA0002: Read persistence.xml for MaPU
-2024-05-16 09:27:42,976 INFO  [org.jipijapa] (MSC service thread 1-6) JIPIORMV53020253: Second level cache enabled for sondage.war#MaPU
-2024-05-16 09:27:42,983 INFO  [org.jboss.weld.deployer] (MSC service thread 1-8) WFLYWELD0003: Processing weld deployment sondage.war
-2024-05-16 09:27:42,989 INFO  [org.infinispan.CONTAINER] (ServerService Thread Pool -- 107) ISPN000556: Starting user marshaller 'org.wildfly.clustering.infinispan.marshalling.jboss.JBossMarshaller'
-2024-05-16 09:27:43,005 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-8) WFLYEJB0473: JNDI bindings for session bean named 'Facade' in deployment unit 'deployment "sondage.war"' are as follows:
-
-	java:global/sondage/Facade!vue.Facade
-	java:app/sondage/Facade!vue.Facade
-	java:module/Facade!vue.Facade
-	java:global/sondage/Facade
-	java:app/sondage/Facade
-	java:module/Facade
-
-2024-05-16 09:27:43,009 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 107) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'sondage.war#MaPU'
-2024-05-16 09:27:43,009 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 107) HHH000204: Processing PersistenceUnitInfo [
-	name: MaPU
-	...]
-2024-05-16 09:27:43,065 INFO  [io.jaegertracing.internal.JaegerTracer] (MSC service thread 1-8) No shutdown hook registered: Please call close() manually on application shutdown.
-2024-05-16 09:27:43,065 INFO  [org.wildfly.microprofile.opentracing.smallrye] (MSC service thread 1-8) WFLYTRAC0001: Tracer initialized: JaegerTracer(version=Java-1.6.0, serviceName=sondage.war, reporter=RemoteReporter(sender=org.wildfly.extension.microprofile.opentracing.spi.sender.WildFlySender@4169c8fd, closeEnqueueTimeout=1000), sampler=ConstSampler(decision=true, tags={sampler.type=const, sampler.param=true}), tags={hostname=Laptop_G, jaeger.version=Java-1.6.0, ip=172.22.226.137}, zipkinSharedRpcSpan=false, expandExceptionLogs=false, useTraceId128Bit=false)
-2024-05-16 09:27:43,074 INFO  [org.jipijapa] (MSC service thread 1-4) JIPIORMV53020253: Second level cache enabled for sondage.war#MaPU
-2024-05-16 09:27:43,127 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 107) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'sondage.war#MaPU'
-2024-05-16 09:27:43,128 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 107) HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
-2024-05-16 09:27:43,135 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 107) Envers integration enabled? : true
-2024-05-16 09:27:43,244 INFO  [org.hibernate.tuple.PojoInstantiator] (ServerService Thread Pool -- 107) HHH000182: No default (no-argument) constructor for class: modele.Personne (class must be instantiated by Interceptor)
-2024-05-16 09:27:43,264 INFO  [stdout] (ServerService Thread Pool -- 107) Hibernate: drop table Historique if exists
-2024-05-16 09:27:43,265 INFO  [stdout] (ServerService Thread Pool -- 107) Hibernate: drop table Personne if exists
-2024-05-16 09:27:43,265 INFO  [stdout] (ServerService Thread Pool -- 107) Hibernate: drop table Sondage if exists
-2024-05-16 09:27:43,266 INFO  [stdout] (ServerService Thread Pool -- 107) Hibernate: create table Historique (id integer generated by default as identity, nom varchar(255), prenom varchar(255), primary key (id))
-2024-05-16 09:27:43,267 INFO  [stdout] (ServerService Thread Pool -- 107) Hibernate: create table Personne (id integer generated by default as identity, autorisation integer not null, mail varchar(255), mdp varchar(255), nom varchar(255), prenom varchar(255), primary key (id))
-2024-05-16 09:27:43,270 INFO  [stdout] (ServerService Thread Pool -- 107) Hibernate: create table Sondage (id integer generated by default as identity, rue varchar(255), ville varchar(255), owner_id integer, primary key (id))
-2024-05-16 09:27:43,272 INFO  [stdout] (ServerService Thread Pool -- 107) Hibernate: alter table Sondage add constraint FKc3yuhsvhuvhbppjdd6f4tjyyx foreign key (owner_id) references Historique
-2024-05-16 09:27:43,279 INFO  [org.hibernate.tool.schema.internal.SchemaCreatorImpl] (ServerService Thread Pool -- 107) HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@787460a4'
-2024-05-16 09:27:43,427 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 109) WFLYUT0021: Registered web context: '/sondage' for server 'default-server'
-2024-05-16 09:27:43,468 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 1) WFLYSRV0010: Deployed "sondage.war" (runtime-name : "sondage.war")
-2024-05-16 09:32:33,985 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 109) WFLYUT0022: Unregistered web context: '/sondage' from server 'default-server'
-2024-05-16 09:32:33,992 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 111) WFLYJPA0011: Stopping Persistence Unit (phase 2 of 2) Service 'sondage.war#MaPU'
-2024-05-16 09:32:33,993 INFO  [org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl] (ServerService Thread Pool -- 111) HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
-2024-05-16 09:32:33,993 INFO  [stdout] (ServerService Thread Pool -- 111) Hibernate: drop table Historique if exists
-2024-05-16 09:32:33,994 INFO  [stdout] (ServerService Thread Pool -- 111) Hibernate: drop table Personne if exists
-2024-05-16 09:32:33,994 INFO  [stdout] (ServerService Thread Pool -- 111) Hibernate: drop table Sondage if exists
-2024-05-16 09:32:33,994 INFO  [org.hibernate.orm.beans] (ServerService Thread Pool -- 111) HHH10005004: Stopping BeanContainer : org.hibernate.resource.beans.container.internal.CdiBeanContainerExtendedAccessImpl@697e65d
-2024-05-16 09:32:33,995 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 111) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service 'sondage.war#MaPU'
-2024-05-16 09:32:34,014 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0028: Stopped deployment sondage.war (runtime-name: sondage.war) in 29ms
-2024-05-16 09:32:34,039 INFO  [org.jboss.as.repository] (DeploymentScanner-threads - 1) WFLYDR0002: Content removed from location c:\Users\gaeta\OneDrive\Dokumentumok\N7\aplli web\projet\sondage\Projet_appliweb\Outils\wildfly-26.1.0.Final\standalone\data\content\81\68dafb368aef82a33a25fd1f1fb34118932bda\content
-2024-05-16 09:32:34,039 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 1) WFLYSRV0009: Undeployed "sondage.war" (runtime-name: "sondage.war")
-2024-05-16 09:32:54,055 INFO  [org.jboss.as.repository] (DeploymentScanner-threads - 1) WFLYDR0001: Content added at location c:\Users\gaeta\OneDrive\Dokumentumok\N7\aplli web\projet\sondage\Projet_appliweb\Outils\wildfly-26.1.0.Final\standalone\data\content\47\47f9ce42beacb59dbf0f0124a8861befe7b622\content
-2024-05-16 09:32:54,057 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0027: Starting deployment of "sondage.war" (runtime-name: "sondage.war")
-2024-05-16 09:32:54,135 INFO  [org.jboss.as.jpa] (MSC service thread 1-6) WFLYJPA0002: Read persistence.xml for MaPU
-2024-05-16 09:32:54,163 INFO  [org.jipijapa] (MSC service thread 1-7) JIPIORMV53020253: Second level cache enabled for sondage.war#MaPU
-2024-05-16 09:32:54,170 INFO  [org.jboss.weld.deployer] (MSC service thread 1-3) WFLYWELD0003: Processing weld deployment sondage.war
-2024-05-16 09:32:54,178 INFO  [org.infinispan.CONTAINER] (ServerService Thread Pool -- 111) ISPN000556: Starting user marshaller 'org.wildfly.clustering.infinispan.marshalling.jboss.JBossMarshaller'
-2024-05-16 09:32:54,197 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-3) WFLYEJB0473: JNDI bindings for session bean named 'Facade' in deployment unit 'deployment "sondage.war"' are as follows:
-
-	java:global/sondage/Facade!vue.Facade
-	java:app/sondage/Facade!vue.Facade
-	java:module/Facade!vue.Facade
-	java:global/sondage/Facade
-	java:app/sondage/Facade
-	java:module/Facade
-
-2024-05-16 09:32:54,200 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 111) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'sondage.war#MaPU'
-2024-05-16 09:32:54,200 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 111) HHH000204: Processing PersistenceUnitInfo [
-	name: MaPU
-	...]
-2024-05-16 09:32:54,250 INFO  [io.jaegertracing.internal.JaegerTracer] (MSC service thread 1-3) No shutdown hook registered: Please call close() manually on application shutdown.
-2024-05-16 09:32:54,250 INFO  [org.wildfly.microprofile.opentracing.smallrye] (MSC service thread 1-3) WFLYTRAC0001: Tracer initialized: JaegerTracer(version=Java-1.6.0, serviceName=sondage.war, reporter=RemoteReporter(sender=org.wildfly.extension.microprofile.opentracing.spi.sender.WildFlySender@64c002b9, closeEnqueueTimeout=1000), sampler=ConstSampler(decision=true, tags={sampler.type=const, sampler.param=true}), tags={hostname=Laptop_G, jaeger.version=Java-1.6.0, ip=172.22.226.137}, zipkinSharedRpcSpan=false, expandExceptionLogs=false, useTraceId128Bit=false)
-2024-05-16 09:32:54,259 INFO  [org.jipijapa] (MSC service thread 1-5) JIPIORMV53020253: Second level cache enabled for sondage.war#MaPU
-2024-05-16 09:32:54,294 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 111) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'sondage.war#MaPU'
-2024-05-16 09:32:54,296 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 111) HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
-2024-05-16 09:32:54,299 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 111) Envers integration enabled? : true
-2024-05-16 09:32:54,361 INFO  [org.hibernate.tuple.PojoInstantiator] (ServerService Thread Pool -- 111) HHH000182: No default (no-argument) constructor for class: modele.Personne (class must be instantiated by Interceptor)
-2024-05-16 09:32:54,381 INFO  [stdout] (ServerService Thread Pool -- 111) Hibernate: drop table Historique if exists
-2024-05-16 09:32:54,383 INFO  [stdout] (ServerService Thread Pool -- 111) Hibernate: drop table Personne if exists
-2024-05-16 09:32:54,383 INFO  [stdout] (ServerService Thread Pool -- 111) Hibernate: drop table Sondage if exists
-2024-05-16 09:32:54,384 INFO  [stdout] (ServerService Thread Pool -- 111) Hibernate: create table Historique (id integer generated by default as identity, nom varchar(255), prenom varchar(255), primary key (id))
-2024-05-16 09:32:54,385 INFO  [stdout] (ServerService Thread Pool -- 111) Hibernate: create table Personne (id integer generated by default as identity, autorisation integer not null, mail varchar(255), mdp varchar(255), nom varchar(255), prenom varchar(255), primary key (id))
-2024-05-16 09:32:54,387 INFO  [stdout] (ServerService Thread Pool -- 111) Hibernate: create table Sondage (id integer generated by default as identity, rue varchar(255), ville varchar(255), owner_id integer, primary key (id))
-2024-05-16 09:32:54,389 INFO  [stdout] (ServerService Thread Pool -- 111) Hibernate: alter table Sondage add constraint FKc3yuhsvhuvhbppjdd6f4tjyyx foreign key (owner_id) references Historique
-2024-05-16 09:32:54,395 INFO  [org.hibernate.tool.schema.internal.SchemaCreatorImpl] (ServerService Thread Pool -- 111) HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@787460a4'
-2024-05-16 09:32:54,508 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 115) WFLYUT0021: Registered web context: '/sondage' for server 'default-server'
-2024-05-16 09:32:54,539 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 1) WFLYSRV0010: Deployed "sondage.war" (runtime-name : "sondage.war")
-2024-05-16 09:37:40,098 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 115) WFLYUT0022: Unregistered web context: '/sondage' from server 'default-server'
-2024-05-16 09:37:40,109 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 119) WFLYJPA0011: Stopping Persistence Unit (phase 2 of 2) Service 'sondage.war#MaPU'
-2024-05-16 09:37:40,110 INFO  [org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl] (ServerService Thread Pool -- 119) HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
-2024-05-16 09:37:40,111 INFO  [stdout] (ServerService Thread Pool -- 119) Hibernate: drop table Historique if exists
-2024-05-16 09:37:40,112 INFO  [stdout] (ServerService Thread Pool -- 119) Hibernate: drop table Personne if exists
-2024-05-16 09:37:40,113 INFO  [stdout] (ServerService Thread Pool -- 119) Hibernate: drop table Sondage if exists
-2024-05-16 09:37:40,114 INFO  [org.hibernate.orm.beans] (ServerService Thread Pool -- 119) HHH10005004: Stopping BeanContainer : org.hibernate.resource.beans.container.internal.CdiBeanContainerExtendedAccessImpl@42eb0a5f
-2024-05-16 09:37:40,115 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 119) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service 'sondage.war#MaPU'
-2024-05-16 09:37:40,143 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0028: Stopped deployment sondage.war (runtime-name: sondage.war) in 46ms
-2024-05-16 09:37:40,189 INFO  [org.jboss.as.repository] (DeploymentScanner-threads - 1) WFLYDR0002: Content removed from location c:\Users\gaeta\OneDrive\Dokumentumok\N7\aplli web\projet\sondage\Projet_appliweb\Outils\wildfly-26.1.0.Final\standalone\data\content\47\47f9ce42beacb59dbf0f0124a8861befe7b622\content
-2024-05-16 09:37:40,189 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 1) WFLYSRV0009: Undeployed "sondage.war" (runtime-name: "sondage.war")
-2024-05-16 09:37:55,206 INFO  [org.jboss.as.repository] (DeploymentScanner-threads - 1) WFLYDR0001: Content added at location c:\Users\gaeta\OneDrive\Dokumentumok\N7\aplli web\projet\sondage\Projet_appliweb\Outils\wildfly-26.1.0.Final\standalone\data\content\f8\8c13c8e81669aa7c543b9991159f44170b8c70\content
-2024-05-16 09:37:55,208 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0027: Starting deployment of "sondage.war" (runtime-name: "sondage.war")
-2024-05-16 09:37:55,291 INFO  [org.jboss.as.jpa] (MSC service thread 1-4) WFLYJPA0002: Read persistence.xml for MaPU
-2024-05-16 09:37:55,323 INFO  [org.jipijapa] (MSC service thread 1-7) JIPIORMV53020253: Second level cache enabled for sondage.war#MaPU
-2024-05-16 09:37:55,332 INFO  [org.jboss.weld.deployer] (MSC service thread 1-3) WFLYWELD0003: Processing weld deployment sondage.war
-2024-05-16 09:37:55,341 INFO  [org.infinispan.CONTAINER] (ServerService Thread Pool -- 119) ISPN000556: Starting user marshaller 'org.wildfly.clustering.infinispan.marshalling.jboss.JBossMarshaller'
-2024-05-16 09:37:55,360 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-3) WFLYEJB0473: JNDI bindings for session bean named 'Facade' in deployment unit 'deployment "sondage.war"' are as follows:
-
-	java:global/sondage/Facade!vue.Facade
-	java:app/sondage/Facade!vue.Facade
-	java:module/Facade!vue.Facade
-	java:global/sondage/Facade
-	java:app/sondage/Facade
-	java:module/Facade
-
-2024-05-16 09:37:55,364 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 119) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'sondage.war#MaPU'
-2024-05-16 09:37:55,364 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 119) HHH000204: Processing PersistenceUnitInfo [
-	name: MaPU
-	...]
-2024-05-16 09:37:55,423 INFO  [io.jaegertracing.internal.JaegerTracer] (MSC service thread 1-3) No shutdown hook registered: Please call close() manually on application shutdown.
-2024-05-16 09:37:55,424 INFO  [org.wildfly.microprofile.opentracing.smallrye] (MSC service thread 1-3) WFLYTRAC0001: Tracer initialized: JaegerTracer(version=Java-1.6.0, serviceName=sondage.war, reporter=RemoteReporter(sender=org.wildfly.extension.microprofile.opentracing.spi.sender.WildFlySender@1a92adda, closeEnqueueTimeout=1000), sampler=ConstSampler(decision=true, tags={sampler.type=const, sampler.param=true}), tags={hostname=Laptop_G, jaeger.version=Java-1.6.0, ip=172.22.226.137}, zipkinSharedRpcSpan=false, expandExceptionLogs=false, useTraceId128Bit=false)
-2024-05-16 09:37:55,435 INFO  [org.jipijapa] (MSC service thread 1-3) JIPIORMV53020253: Second level cache enabled for sondage.war#MaPU
-2024-05-16 09:37:55,479 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 119) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'sondage.war#MaPU'
-2024-05-16 09:37:55,479 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 119) HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
-2024-05-16 09:37:55,485 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 119) Envers integration enabled? : true
-2024-05-16 09:37:55,551 INFO  [org.hibernate.tuple.PojoInstantiator] (ServerService Thread Pool -- 119) HHH000182: No default (no-argument) constructor for class: modele.Personne (class must be instantiated by Interceptor)
-2024-05-16 09:37:55,573 INFO  [stdout] (ServerService Thread Pool -- 119) Hibernate: drop table Historique if exists
-2024-05-16 09:37:55,574 INFO  [stdout] (ServerService Thread Pool -- 119) Hibernate: drop table Personne if exists
-2024-05-16 09:37:55,574 INFO  [stdout] (ServerService Thread Pool -- 119) Hibernate: drop table Sondage if exists
-2024-05-16 09:37:55,575 INFO  [stdout] (ServerService Thread Pool -- 119) Hibernate: create table Historique (id integer generated by default as identity, nom varchar(255), prenom varchar(255), primary key (id))
-2024-05-16 09:37:55,576 INFO  [stdout] (ServerService Thread Pool -- 119) Hibernate: create table Personne (id integer generated by default as identity, autorisation integer not null, mail varchar(255), mdp varchar(255), nom varchar(255), prenom varchar(255), primary key (id))
-2024-05-16 09:37:55,577 INFO  [stdout] (ServerService Thread Pool -- 119) Hibernate: create table Sondage (id integer generated by default as identity, rue varchar(255), ville varchar(255), owner_id integer, primary key (id))
-2024-05-16 09:37:55,578 INFO  [stdout] (ServerService Thread Pool -- 119) Hibernate: alter table Sondage add constraint FKc3yuhsvhuvhbppjdd6f4tjyyx foreign key (owner_id) references Historique
-2024-05-16 09:37:55,584 INFO  [org.hibernate.tool.schema.internal.SchemaCreatorImpl] (ServerService Thread Pool -- 119) HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@787460a4'
-2024-05-16 09:37:55,716 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 119) WFLYUT0021: Registered web context: '/sondage' for server 'default-server'
-2024-05-16 09:37:55,769 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 1) WFLYSRV0010: Deployed "sondage.war" (runtime-name : "sondage.war")
-2024-05-16 09:42:06,152 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 119) WFLYUT0022: Unregistered web context: '/sondage' from server 'default-server'
-2024-05-16 09:42:06,166 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 121) WFLYJPA0011: Stopping Persistence Unit (phase 2 of 2) Service 'sondage.war#MaPU'
-2024-05-16 09:42:06,167 INFO  [org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl] (ServerService Thread Pool -- 121) HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
-2024-05-16 09:42:06,167 INFO  [stdout] (ServerService Thread Pool -- 121) Hibernate: drop table Historique if exists
-2024-05-16 09:42:06,169 INFO  [stdout] (ServerService Thread Pool -- 121) Hibernate: drop table Personne if exists
-2024-05-16 09:42:06,171 INFO  [stdout] (ServerService Thread Pool -- 121) Hibernate: drop table Sondage if exists
-2024-05-16 09:42:06,172 INFO  [org.hibernate.orm.beans] (ServerService Thread Pool -- 121) HHH10005004: Stopping BeanContainer : org.hibernate.resource.beans.container.internal.CdiBeanContainerExtendedAccessImpl@6aa9fb18
-2024-05-16 09:42:06,173 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 121) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service 'sondage.war#MaPU'
-2024-05-16 09:42:06,204 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0028: Stopped deployment sondage.war (runtime-name: sondage.war) in 52ms
-2024-05-16 09:42:06,263 INFO  [org.jboss.as.repository] (DeploymentScanner-threads - 1) WFLYDR0002: Content removed from location c:\Users\gaeta\OneDrive\Dokumentumok\N7\aplli web\projet\sondage\Projet_appliweb\Outils\wildfly-26.1.0.Final\standalone\data\content\f8\8c13c8e81669aa7c543b9991159f44170b8c70\content
-2024-05-16 09:42:06,263 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 1) WFLYSRV0009: Undeployed "sondage.war" (runtime-name: "sondage.war")
-2024-05-16 09:42:31,284 INFO  [org.jboss.as.repository] (DeploymentScanner-threads - 1) WFLYDR0001: Content added at location c:\Users\gaeta\OneDrive\Dokumentumok\N7\aplli web\projet\sondage\Projet_appliweb\Outils\wildfly-26.1.0.Final\standalone\data\content\51\d66045206772afc4c3c4499195732488ceb870\content
-2024-05-16 09:42:31,287 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0027: Starting deployment of "sondage.war" (runtime-name: "sondage.war")
-2024-05-16 09:42:31,368 INFO  [org.jboss.as.jpa] (MSC service thread 1-5) WFLYJPA0002: Read persistence.xml for MaPU
-2024-05-16 09:42:31,395 INFO  [org.jipijapa] (MSC service thread 1-3) JIPIORMV53020253: Second level cache enabled for sondage.war#MaPU
-2024-05-16 09:42:31,403 INFO  [org.jboss.weld.deployer] (MSC service thread 1-5) WFLYWELD0003: Processing weld deployment sondage.war
-2024-05-16 09:42:31,412 INFO  [org.infinispan.CONTAINER] (ServerService Thread Pool -- 121) ISPN000556: Starting user marshaller 'org.wildfly.clustering.infinispan.marshalling.jboss.JBossMarshaller'
-2024-05-16 09:42:31,432 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-5) WFLYEJB0473: JNDI bindings for session bean named 'Facade' in deployment unit 'deployment "sondage.war"' are as follows:
-
-	java:global/sondage/Facade!vue.Facade
-	java:app/sondage/Facade!vue.Facade
-	java:module/Facade!vue.Facade
-	java:global/sondage/Facade
-	java:app/sondage/Facade
-	java:module/Facade
-
-2024-05-16 09:42:31,435 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 121) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'sondage.war#MaPU'
-2024-05-16 09:42:31,435 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 121) HHH000204: Processing PersistenceUnitInfo [
-	name: MaPU
-	...]
-2024-05-16 09:42:31,477 INFO  [io.jaegertracing.internal.JaegerTracer] (MSC service thread 1-5) No shutdown hook registered: Please call close() manually on application shutdown.
-2024-05-16 09:42:31,477 INFO  [org.wildfly.microprofile.opentracing.smallrye] (MSC service thread 1-5) WFLYTRAC0001: Tracer initialized: JaegerTracer(version=Java-1.6.0, serviceName=sondage.war, reporter=RemoteReporter(sender=org.wildfly.extension.microprofile.opentracing.spi.sender.WildFlySender@3b495117, closeEnqueueTimeout=1000), sampler=ConstSampler(decision=true, tags={sampler.type=const, sampler.param=true}), tags={hostname=Laptop_G, jaeger.version=Java-1.6.0, ip=172.22.226.137}, zipkinSharedRpcSpan=false, expandExceptionLogs=false, useTraceId128Bit=false)
-2024-05-16 09:42:31,493 INFO  [org.jipijapa] (MSC service thread 1-4) JIPIORMV53020253: Second level cache enabled for sondage.war#MaPU
-2024-05-16 09:42:31,530 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 121) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'sondage.war#MaPU'
-2024-05-16 09:42:31,531 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 121) HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
-2024-05-16 09:42:31,536 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 121) Envers integration enabled? : true
-2024-05-16 09:42:31,603 INFO  [org.hibernate.tuple.PojoInstantiator] (ServerService Thread Pool -- 121) HHH000182: No default (no-argument) constructor for class: modele.Personne (class must be instantiated by Interceptor)
-2024-05-16 09:42:31,620 INFO  [stdout] (ServerService Thread Pool -- 121) Hibernate: drop table Historique if exists
-2024-05-16 09:42:31,620 INFO  [stdout] (ServerService Thread Pool -- 121) Hibernate: drop table Personne if exists
-2024-05-16 09:42:31,621 INFO  [stdout] (ServerService Thread Pool -- 121) Hibernate: drop table Sondage if exists
-2024-05-16 09:42:31,622 INFO  [stdout] (ServerService Thread Pool -- 121) Hibernate: create table Historique (id integer generated by default as identity, nom varchar(255), prenom varchar(255), primary key (id))
-2024-05-16 09:42:31,623 INFO  [stdout] (ServerService Thread Pool -- 121) Hibernate: create table Personne (id integer generated by default as identity, autorisation integer not null, mail varchar(255), mdp varchar(255), nom varchar(255), prenom varchar(255), primary key (id))
-2024-05-16 09:42:31,625 INFO  [stdout] (ServerService Thread Pool -- 121) Hibernate: create table Sondage (id integer generated by default as identity, rue varchar(255), ville varchar(255), owner_id integer, primary key (id))
-2024-05-16 09:42:31,626 INFO  [stdout] (ServerService Thread Pool -- 121) Hibernate: alter table Sondage add constraint FKc3yuhsvhuvhbppjdd6f4tjyyx foreign key (owner_id) references Historique
-2024-05-16 09:42:31,633 INFO  [org.hibernate.tool.schema.internal.SchemaCreatorImpl] (ServerService Thread Pool -- 121) HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@787460a4'
-2024-05-16 09:42:31,763 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 125) WFLYUT0021: Registered web context: '/sondage' for server 'default-server'
-2024-05-16 09:42:31,799 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 1) WFLYSRV0010: Deployed "sondage.war" (runtime-name : "sondage.war")
-2024-05-16 09:46:27,127 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 125) WFLYUT0022: Unregistered web context: '/sondage' from server 'default-server'
-2024-05-16 09:46:27,133 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 129) WFLYJPA0011: Stopping Persistence Unit (phase 2 of 2) Service 'sondage.war#MaPU'
-2024-05-16 09:46:27,134 INFO  [org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl] (ServerService Thread Pool -- 129) HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
-2024-05-16 09:46:27,134 INFO  [stdout] (ServerService Thread Pool -- 129) Hibernate: drop table Historique if exists
-2024-05-16 09:46:27,135 INFO  [stdout] (ServerService Thread Pool -- 129) Hibernate: drop table Personne if exists
-2024-05-16 09:46:27,135 INFO  [stdout] (ServerService Thread Pool -- 129) Hibernate: drop table Sondage if exists
-2024-05-16 09:46:27,136 INFO  [org.hibernate.orm.beans] (ServerService Thread Pool -- 129) HHH10005004: Stopping BeanContainer : org.hibernate.resource.beans.container.internal.CdiBeanContainerExtendedAccessImpl@373599d5
-2024-05-16 09:46:27,136 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 129) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service 'sondage.war#MaPU'
-2024-05-16 09:46:27,156 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0028: Stopped deployment sondage.war (runtime-name: sondage.war) in 30ms
-2024-05-16 09:46:27,189 INFO  [org.jboss.as.repository] (DeploymentScanner-threads - 1) WFLYDR0002: Content removed from location c:\Users\gaeta\OneDrive\Dokumentumok\N7\aplli web\projet\sondage\Projet_appliweb\Outils\wildfly-26.1.0.Final\standalone\data\content\51\d66045206772afc4c3c4499195732488ceb870\content
-2024-05-16 09:46:27,189 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 1) WFLYSRV0009: Undeployed "sondage.war" (runtime-name: "sondage.war")
-2024-05-16 09:46:47,210 INFO  [org.jboss.as.repository] (DeploymentScanner-threads - 1) WFLYDR0001: Content added at location c:\Users\gaeta\OneDrive\Dokumentumok\N7\aplli web\projet\sondage\Projet_appliweb\Outils\wildfly-26.1.0.Final\standalone\data\content\97\d14781cb8073d52278c42d60882404941d108e\content
-2024-05-16 09:46:47,213 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0027: Starting deployment of "sondage.war" (runtime-name: "sondage.war")
-2024-05-16 09:46:47,315 INFO  [org.jboss.as.jpa] (MSC service thread 1-8) WFLYJPA0002: Read persistence.xml for MaPU
-2024-05-16 09:46:47,345 INFO  [org.jipijapa] (MSC service thread 1-6) JIPIORMV53020253: Second level cache enabled for sondage.war#MaPU
-2024-05-16 09:46:47,359 INFO  [org.jboss.weld.deployer] (MSC service thread 1-7) WFLYWELD0003: Processing weld deployment sondage.war
-2024-05-16 09:46:47,364 INFO  [org.infinispan.CONTAINER] (ServerService Thread Pool -- 129) ISPN000556: Starting user marshaller 'org.wildfly.clustering.infinispan.marshalling.jboss.JBossMarshaller'
-2024-05-16 09:46:47,394 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 129) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'sondage.war#MaPU'
-2024-05-16 09:46:47,396 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 129) HHH000204: Processing PersistenceUnitInfo [
-	name: MaPU
-	...]
-2024-05-16 09:46:47,411 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-7) WFLYEJB0473: JNDI bindings for session bean named 'Facade' in deployment unit 'deployment "sondage.war"' are as follows:
-
-	java:global/sondage/Facade!vue.Facade
-	java:app/sondage/Facade!vue.Facade
-	java:module/Facade!vue.Facade
-	java:global/sondage/Facade
-	java:app/sondage/Facade
-	java:module/Facade
-
-2024-05-16 09:46:47,490 INFO  [io.jaegertracing.internal.JaegerTracer] (MSC service thread 1-7) No shutdown hook registered: Please call close() manually on application shutdown.
-2024-05-16 09:46:47,490 INFO  [org.wildfly.microprofile.opentracing.smallrye] (MSC service thread 1-7) WFLYTRAC0001: Tracer initialized: JaegerTracer(version=Java-1.6.0, serviceName=sondage.war, reporter=RemoteReporter(sender=org.wildfly.extension.microprofile.opentracing.spi.sender.WildFlySender@1665821c, closeEnqueueTimeout=1000), sampler=ConstSampler(decision=true, tags={sampler.type=const, sampler.param=true}), tags={hostname=Laptop_G, jaeger.version=Java-1.6.0, ip=172.22.226.137}, zipkinSharedRpcSpan=false, expandExceptionLogs=false, useTraceId128Bit=false)
-2024-05-16 09:46:47,498 INFO  [org.jipijapa] (MSC service thread 1-5) JIPIORMV53020253: Second level cache enabled for sondage.war#MaPU
-2024-05-16 09:46:47,550 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 129) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'sondage.war#MaPU'
-2024-05-16 09:46:47,551 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 129) HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
-2024-05-16 09:46:47,555 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 129) Envers integration enabled? : true
-2024-05-16 09:46:47,636 INFO  [org.hibernate.tuple.PojoInstantiator] (ServerService Thread Pool -- 129) HHH000182: No default (no-argument) constructor for class: modele.Personne (class must be instantiated by Interceptor)
-2024-05-16 09:46:47,652 INFO  [stdout] (ServerService Thread Pool -- 129) Hibernate: drop table Historique if exists
-2024-05-16 09:46:47,653 INFO  [stdout] (ServerService Thread Pool -- 129) Hibernate: drop table Personne if exists
-2024-05-16 09:46:47,653 INFO  [stdout] (ServerService Thread Pool -- 129) Hibernate: drop table Sondage if exists
-2024-05-16 09:46:47,654 INFO  [stdout] (ServerService Thread Pool -- 129) Hibernate: create table Historique (id integer generated by default as identity, nom varchar(255), prenom varchar(255), primary key (id))
-2024-05-16 09:46:47,657 INFO  [stdout] (ServerService Thread Pool -- 129) Hibernate: create table Personne (id integer generated by default as identity, autorisation integer not null, mail varchar(255), mdp varchar(255), nom varchar(255), prenom varchar(255), primary key (id))
-2024-05-16 09:46:47,659 INFO  [stdout] (ServerService Thread Pool -- 129) Hibernate: create table Sondage (id integer generated by default as identity, rue varchar(255), ville varchar(255), owner_id integer, primary key (id))
-2024-05-16 09:46:47,662 INFO  [stdout] (ServerService Thread Pool -- 129) Hibernate: alter table Sondage add constraint FKc3yuhsvhuvhbppjdd6f4tjyyx foreign key (owner_id) references Historique
-2024-05-16 09:46:47,668 INFO  [org.hibernate.tool.schema.internal.SchemaCreatorImpl] (ServerService Thread Pool -- 129) HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@787460a4'
-2024-05-16 09:46:47,805 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 131) WFLYUT0021: Registered web context: '/sondage' for server 'default-server'
-2024-05-16 09:46:47,850 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 1) WFLYSRV0010: Deployed "sondage.war" (runtime-name : "sondage.war")
+2024-05-19 19:58:19,874 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 79) WFLYCLINF0002: Started http-remoting-connector cache from ejb container
+2024-05-19 19:58:20,032 INFO  [org.hibernate.Version] (ServerService Thread Pool -- 78) HHH000412: Hibernate Core {5.3.24.Final}
+2024-05-19 19:58:20,034 INFO  [org.hibernate.cfg.Environment] (ServerService Thread Pool -- 78) HHH000206: hibernate.properties not found
+2024-05-19 19:58:20,292 INFO  [org.hibernate.annotations.common.Version] (ServerService Thread Pool -- 78) HCANN000001: Hibernate Commons Annotations {5.0.5.Final}
+2024-05-19 19:58:20,506 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 78) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'sondage.war#MaPU'
+2024-05-19 19:58:20,801 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 78) HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2024-05-19 19:58:20,944 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 78) Envers integration enabled? : true
+2024-05-19 19:58:21,803 INFO  [org.hibernate.tuple.PojoInstantiator] (ServerService Thread Pool -- 78) HHH000182: No default (no-argument) constructor for class: modele.Personne (class must be instantiated by Interceptor)
+2024-05-19 19:58:21,941 INFO  [stdout] (ServerService Thread Pool -- 78) Hibernate: drop table Historique if exists
+2024-05-19 19:58:21,947 INFO  [stdout] (ServerService Thread Pool -- 78) Hibernate: drop table Personne if exists
+2024-05-19 19:58:21,948 INFO  [stdout] (ServerService Thread Pool -- 78) Hibernate: drop table Sondage if exists
+2024-05-19 19:58:21,954 INFO  [stdout] (ServerService Thread Pool -- 78) Hibernate: create table Historique (id integer generated by default as identity, nom varchar(255), prenom varchar(255), primary key (id))
+2024-05-19 19:58:21,967 INFO  [stdout] (ServerService Thread Pool -- 78) Hibernate: create table Personne (id integer generated by default as identity, autorisation integer not null, mail varchar(255), mdp varchar(255), nom varchar(255), prenom varchar(255), primary key (id))
+2024-05-19 19:58:21,970 INFO  [stdout] (ServerService Thread Pool -- 78) Hibernate: create table Sondage (id integer generated by default as identity, rue varchar(255), ville varchar(255), owner_id integer, primary key (id))
+2024-05-19 19:58:21,973 INFO  [stdout] (ServerService Thread Pool -- 78) Hibernate: alter table Sondage add constraint FKc3yuhsvhuvhbppjdd6f4tjyyx foreign key (owner_id) references Historique
+2024-05-19 19:58:22,001 INFO  [org.hibernate.tool.schema.internal.SchemaCreatorImpl] (ServerService Thread Pool -- 78) HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@5404c71d'
+2024-05-19 19:58:22,792 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 78) WFLYUT0021: Registered web context: '/sondage' for server 'default-server'
+2024-05-19 19:58:22,918 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 45) WFLYSRV0010: Deployed "sondage.war" (runtime-name : "sondage.war")
+2024-05-19 19:58:23,015 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Resuming server
+2024-05-19 19:58:23,018 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Full 26.1.0.Final (WildFly Core 18.1.0.Final) started in 10730ms - Started 470 of 650 services (341 services are lazy, passive or on-demand) - Server configuration file in use: standalone.xml
+2024-05-19 19:58:23,024 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
+2024-05-19 19:58:23,025 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9990
+2024-05-19 20:02:10,924 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0272: Suspending server
+2024-05-19 20:02:10,927 INFO  [org.jboss.as.ejb3] (management-handler-thread - 1) WFLYEJB0493: Jakarta Enterprise Beans subsystem suspension complete
+2024-05-19 20:02:10,930 INFO  [org.jboss.as.server] (Management Triggered Shutdown) WFLYSRV0241: Shutting down in response to management operation 'shutdown'
+2024-05-19 20:02:10,951 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-3) WFLYMAIL0002: Unbound mail session [java:jboss/mail/Default]
+2024-05-19 20:02:10,954 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 78) WFLYUT0022: Unregistered web context: '/sondage' from server 'default-server'
+2024-05-19 20:02:10,962 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0019: Host default-host stopping
+2024-05-19 20:02:10,979 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 86) WFLYCLINF0003: Stopped http-remoting-connector cache from ejb container
+2024-05-19 20:02:10,998 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 86) WFLYJPA0011: Stopping Persistence Unit (phase 2 of 2) Service 'sondage.war#MaPU'
+2024-05-19 20:02:10,998 INFO  [org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl] (ServerService Thread Pool -- 86) HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2024-05-19 20:02:10,999 INFO  [stdout] (ServerService Thread Pool -- 86) Hibernate: drop table Historique if exists
+2024-05-19 20:02:11,004 INFO  [stdout] (ServerService Thread Pool -- 86) Hibernate: drop table Personne if exists
+2024-05-19 20:02:11,005 INFO  [stdout] (ServerService Thread Pool -- 86) Hibernate: drop table Sondage if exists
+2024-05-19 20:02:11,008 INFO  [org.hibernate.orm.beans] (ServerService Thread Pool -- 86) HHH10005004: Stopping BeanContainer : org.hibernate.resource.beans.container.internal.CdiBeanContainerExtendedAccessImpl@3daca1d4
+2024-05-19 20:02:11,012 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 86) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service 'sondage.war#MaPU'
+2024-05-19 20:02:11,013 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-2) WFLYJCA0010: Unbound data source [java:jboss/datasources/ExampleDS]
+2024-05-19 20:02:11,018 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-8) WFLYJCA0019: Stopped Driver service with driver-name = h2
+2024-05-19 20:02:11,036 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0008: Undertow HTTP listener default suspending
+2024-05-19 20:02:11,036 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) WFLYUT0008: Undertow HTTPS listener https suspending
+2024-05-19 20:02:11,036 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0007: Undertow HTTP listener default stopped, was bound to 127.0.0.1:8080
+2024-05-19 20:02:11,036 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) WFLYUT0007: Undertow HTTPS listener https stopped, was bound to 127.0.0.1:8443
+2024-05-19 20:02:11,038 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) WFLYUT0004: Undertow 2.2.16.Final stopping
+2024-05-19 20:02:11,064 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0028: Stopped deployment sondage.war (runtime-name: sondage.war) in 121ms
+2024-05-19 20:02:11,070 INFO  [org.jboss.as] (MSC service thread 1-3) WFLYSRV0050: WildFly Full 26.1.0.Final (WildFly Core 18.1.0.Final) stopped in 127ms
