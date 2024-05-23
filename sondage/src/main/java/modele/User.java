@@ -25,4 +25,9 @@ public class User {
 
     public String getMdp() { return mdp; }
     public void setMdp(String mdp) { this.mdp = mdp; }
+    public User(String email, String password, String userType) {
+        this.mail = email;
+        this.mdp = password;
+
+    }
 }
