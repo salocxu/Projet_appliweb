@@ -11,8 +11,6 @@ public class Personne {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
-    private String nom;
-    private String prenom;
     private String email;
     private String password;
     private int autorisation;
@@ -20,9 +18,7 @@ public class Personne {
     public Personne() {
     }
 
-    public Personne(String nom, String prenom, String email, String password) {
-        this.nom = nom;
-        this.prenom = prenom;
+    public Personne(String email, String password) {
         this.email = email;
         this.autorisation = 0;
         this.password = password;
@@ -32,13 +28,7 @@ public class Personne {
         return id;
     }
 
-    public String getNom() {
-        return nom;
-    }
 
-    public String getPrenom() {
-        return prenom;
-    }
 
     public String getEmail() {
         return email;
@@ -60,13 +50,16 @@ public class Personne {
         this.autorisation = autorisation;
     }
 
+    public void setEmail(String email) {
+        this.email = email;
+    }
+    
+
 
     @Override
     public String toString() {
         return "Personne{" +
                 "id=" + id +
-                ", nom='" + nom + '\'' +
-                ", prenom='" + prenom + '\'' +
                 ", email='" + email + '\'' +
                 '}';
     }

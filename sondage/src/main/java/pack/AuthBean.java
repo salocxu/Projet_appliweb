@@ -13,12 +13,12 @@ public class AuthBean {
 
     public boolean authenticate(String mail, String mdp) {
         try {
-            TypedQuery<User> query = em.createQuery(
-                "SELECT u FROM User u WHERE u.mail = :mail AND u.mdp = :mdp", User.class);
+            TypedQuery<Personne> query = em.createQuery(
+                "SELECT u FROM User u WHERE u.mail = :mail AND u.mdp = :mdp", Personne.class);
             query.setParameter("mail", mail);
             query.setParameter("mdp", mdp);
             
-            User user = query.getSingleResult();
+            Personne user = query.getSingleResult();
             return user != null;
         } catch (Exception e) {
             System.out.println("Authentication failed: " + e.getMessage());
@@ -28,9 +28,9 @@ public class AuthBean {
 
     public void addUser(String mail, String mdp) {
         try {
-            User user = new User();
-            user.setMail(mail);
-            user.setMdp(mdp);
+            Personne user = new Personne();
+            user.setEmail(mail);
+            user.setPassword(mdp);
             em.persist(user);
             System.out.println("User added successfully: " + mail);
         } catch (Exception e) {

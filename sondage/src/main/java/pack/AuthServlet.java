@@ -20,7 +20,7 @@ public class AuthServlet extends HttpServlet {
         String userType = request.getParameter("user-type");
         
         if (password.equals(confirmPassword)) {
-            User newUser = new User(email, password, userType);
+            Personne user = new Personne(email, password);
             // Enregistrement dans la base de données
             // UserDAO.save(newUser);
 
