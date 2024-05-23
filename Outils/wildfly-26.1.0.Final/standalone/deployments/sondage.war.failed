@@ -1,0 +1,2 @@
+{"WFLYCTL0080: Failed services" => {"jboss.persistenceunit.\"sondage.war#MaPU\"" => "org.hibernate.AnnotationException: Illegal attempt to map a non collection as a @OneToMany, @ManyToMany or @CollectionOfElements: modele.Question.reponses
+    Caused by: org.hibernate.AnnotationException: Illegal attempt to map a non collection as a @OneToMany, @ManyToMany or @CollectionOfElements: modele.Question.reponses"}}

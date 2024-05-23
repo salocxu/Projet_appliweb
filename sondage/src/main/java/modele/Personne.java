@@ -50,4 +50,8 @@ public class Personne {
     public void setAutorisation(int autorisation) {
         this.autorisation = autorisation;
     }
+
+    public void setMdp(String mdp) {
+        this.mdp = mdp;
+    }
 }

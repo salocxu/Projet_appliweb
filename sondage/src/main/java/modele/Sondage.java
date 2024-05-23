@@ -5,7 +5,8 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.ManyToOne;
-
+import java.util.List;
+import javax.persistence.ManyToMany;
 /**
  * Adresse
  */
@@ -16,49 +17,46 @@ public class Sondage {
   @GeneratedValue(strategy = GenerationType.IDENTITY)
   private int id;
 
-  private String ville;
+  // plusiseurs grouep peuvent participer à un sondage
+  @ManyToMany(mappedBy = "sondages")
+  private List<Groupe> groupes;
 
-  private String rue;
+  private String categorie;
+
+  private List<Question> questions;
 
   @ManyToOne
-  private Historique owner; /* can be null */
+  private Historique historique; /* can be null */
 
-  public Sondage() {}
 
-  public Sondage (String ville, String rue) {
-    this.ville = ville;
-    this.rue = rue;
+
+  public Sondage (List<Groupe> groupes, List<Question> questions) {
+    this.groupes = groupes;
+    this.questions = questions;
   }
 
   public int getId() {
     return id;
   }
-
-  public String getVille() {
-    return ville;
+  //verifier perosnne présente dans classe groupe
+  public List<Groupe> getGroupe() {
+    return groupes;
   }
 
-  public String getRue() {
-    return rue;
+  public List<Question> getQuestions() {
+    return questions;
   }
 
-  public Historique getOwner() {
-    return owner;
+  public List<Question> ajoutQuestion(Question question) {
+    questions.add(question);
+    return questions;
   }
 
-  public void setId(int id) {
-    this.id = id;
+  public List<Question> supprimerQuestion(Question question) {
+    if (questions.contains(question)) {
+      questions.remove(question);
+    }
+    return questions;
   }
 
-  public void setVille(String ville) {
-    this.ville = ville;
-  }
-
-  public void setRue(String rue) {
-    this.rue = rue;
-  }
-
-  public void setOwner(Historique owner) {
-    this.owner = owner;
-  }
 }

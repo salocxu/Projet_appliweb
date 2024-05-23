@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 c:\Users\gaeta\OneDrive\Dokumentumok\N7\aplli web\projet\sondage\Projet_appliweb\sondage\src\main\java\vue\Facade.java
 c:\Users\gaeta\OneDrive\Dokumentumok\N7\aplli web\projet\sondage\Projet_appliweb\sondage\src\main\java\modele\Historique.java
 c:\Users\gaeta\OneDrive\Dokumentumok\N7\aplli web\projet\sondage\Projet_appliweb\sondage\src\main\java\modele\Personne.java
@@ -7,3 +8,17 @@ c:\Users\gaeta\OneDrive\Dokumentumok\N7\aplli web\projet\sondage\Projet_appliweb
 c:\Users\gaeta\OneDrive\Dokumentumok\N7\aplli web\projet\sondage\Projet_appliweb\sondage\src\main\java\modele\Commentaire.java
 c:\Users\gaeta\OneDrive\Dokumentumok\N7\aplli web\projet\sondage\Projet_appliweb\sondage\src\main\java\modele\Reponse.java
 c:\Users\gaeta\OneDrive\Dokumentumok\N7\aplli web\projet\sondage\Projet_appliweb\sondage\src\main\java\modele\Question.java
+=======
+/Users/irenalermusiaux/Documents/Etude/ENSEEIHT/S8 M/Appli web/Projet_appliweb/sondage/src/main/java/pack/AuthServlet.java
+/Users/irenalermusiaux/Documents/Etude/ENSEEIHT/S8 M/Appli web/Projet_appliweb/sondage/src/main/java/modele/Groupe.java
+/Users/irenalermusiaux/Documents/Etude/ENSEEIHT/S8 M/Appli web/Projet_appliweb/sondage/src/main/java/modele/Historique.java
+/Users/irenalermusiaux/Documents/Etude/ENSEEIHT/S8 M/Appli web/Projet_appliweb/sondage/src/main/java/modele/Commentaire.java
+/Users/irenalermusiaux/Documents/Etude/ENSEEIHT/S8 M/Appli web/Projet_appliweb/sondage/src/main/java/modele/Sondage.java
+/Users/irenalermusiaux/Documents/Etude/ENSEEIHT/S8 M/Appli web/Projet_appliweb/sondage/src/main/java/pack/AuthBean.java
+/Users/irenalermusiaux/Documents/Etude/ENSEEIHT/S8 M/Appli web/Projet_appliweb/sondage/src/main/java/modele/Reponse.java
+/Users/irenalermusiaux/Documents/Etude/ENSEEIHT/S8 M/Appli web/Projet_appliweb/sondage/src/main/java/modele/Personne.java
+/Users/irenalermusiaux/Documents/Etude/ENSEEIHT/S8 M/Appli web/Projet_appliweb/sondage/src/main/java/pack/Serv.java
+/Users/irenalermusiaux/Documents/Etude/ENSEEIHT/S8 M/Appli web/Projet_appliweb/sondage/src/main/java/vue/Facade.java
+/Users/irenalermusiaux/Documents/Etude/ENSEEIHT/S8 M/Appli web/Projet_appliweb/sondage/src/main/java/modele/User.java
+/Users/irenalermusiaux/Documents/Etude/ENSEEIHT/S8 M/Appli web/Projet_appliweb/sondage/src/main/java/modele/Question.java
+>>>>>>> 4429eeb4834de3bce72d9b277c51b10914837cb4

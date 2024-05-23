@@ -21,18 +21,18 @@ public class Serv extends HttpServlet {
 
   @EJB
   Facade facade;
-
+  
   @Override
   protected void doGet(HttpServletRequest req, HttpServletResponse resp)
     throws ServletException, IOException {
-
+    '''
     req.setAttribute("facade", facade);
     String op = req.getParameter("op");
     RequestDispatcher rd = req.getRequestDispatcher("index.html");
 
     if (op != null) {
-      req.setAttribute("listePersonnes", facade.listePersonnes());
-      req.setAttribute("listeAdresses", facade.listeAdresses());
+      // req.setAttribute("listePersonnes", facade.listePersonnes());
+      // req.setAttribute("listeAdresses", facade.listeAdresses());
       switch (op) {
         case "lister":
           resp.setContentType("text/html;charset=UTF-8");
@@ -43,9 +43,9 @@ public class Serv extends HttpServlet {
             } else {
               System.out.println(assoc); // DEBUG
               for (Historique personne : assoc.keySet()) {
-                out.println(personne.getNom() + " " + personne.getPrenom() + "<br>");
-                for (Sondage adresse : assoc.get(personne)) {
-                  out.println("&nbsp;&nbsp;&nbsp;&nbsp;" + adresse.getRue() + " " + adresse.getVille() + "<br>");
+                // out.println(personne.getNom() + " " + personne.getPrenom() + "<br>");
+                // for (Sondage adresse : assoc.get(personne)) {
+                  // out.println("&nbsp;&nbsp;&nbsp;&nbsp;" + adresse.getRue() + " " + adresse.getVille() + "<br>");
                 }
               }
             }
@@ -59,8 +59,9 @@ public class Serv extends HttpServlet {
       }
     }
     rd.forward(req, resp);
+    '''
   }
-
+  
   @Override
   protected void doPost(HttpServletRequest req, HttpServletResponse resp)
     throws ServletException, IOException {
