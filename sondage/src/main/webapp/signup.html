@@ -6,7 +6,6 @@
     <title>PollHub - Inscription</title>
     <link rel="stylesheet" href="styles.css">
     <script>
-        // Générer une suite aléatoire de lettres et de chiffres
         function generateCaptcha() {
             var chars = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
             var captchaLength = 6;
@@ -18,14 +17,12 @@
             return captcha;
         }
 
-        // Afficher le CAPTCHA dans l'élément avec l'ID captcha-display
         function displayCaptcha() {
             var captcha = generateCaptcha();
             document.getElementById('captcha-display').innerText = captcha;
-            document.getElementById('captcha-value').value = captcha; // Stocker la valeur du CAPTCHA généré
+            document.getElementById('captcha-value').value = captcha;
         }
 
-        // Vérifier si le CAPTCHA est correct
         function validateCaptcha(event) {
             var enteredCaptcha = document.getElementById('captcha').value;
             var actualCaptcha = document.getElementById('captcha-value').value;
@@ -35,13 +32,11 @@
             }
         }
 
-        // Générer et afficher le CAPTCHA au chargement de la page
         window.onload = function() {
             displayCaptcha();
-            updateSpecialtyOptions(); // Mettre à jour les spécialités au chargement
+            updateSpecialtyOptions();
         }
 
-        // Afficher ou masquer les champs en fonction du type d'utilisateur (étudiant ou professeur)
         function toggleStudentFields() {
             var userType = document.querySelector('input[name="user-type"]:checked').value;
             var studentFields = document.getElementById('student-fields');
@@ -52,7 +47,6 @@
             }
         }
 
-        // Mise à jour des options de spécialité en fonction de la filière et de l'année choisies
         function updateSpecialtyOptions() {
             var userType = document.querySelector('input[name="user-type"]:checked').value;
             var studentFields = document.getElementById('student-fields');
@@ -70,16 +64,13 @@
                     "3EA": ["InSYS", "SysCOM", "PN", "IATI", "SATR", "SEF", "SM"]
                 };
 
-                // Vider les options existantes
                 specialtySelect.innerHTML = '';
 
-                // Afficher ou masquer le conteneur de spécialité en fonction de l'année
                 if (year === "1") {
                     specialtyContainer.style.display = 'none';
                 } else {
                     specialtyContainer.style.display = 'block';
 
-                    // Ajouter les nouvelles options
                     if (specialties[major]) {
                         var options = Array.isArray(specialties[major]) ? specialties[major] : specialties[major][year] || [];
                         options.forEach(function(specialty) {
@@ -94,6 +85,12 @@
                 studentFields.classList.remove('active');
             }
         }
+
+        function register(event) {
+            event.preventDefault();
+            // Simuler l'inscription, ici vous pouvez ajouter votre logique de validation
+            window.location.href = 'home.html';
+        }
     </script>
 </head>
 <body>
@@ -105,7 +102,7 @@
     <main>
         <div class="signup-container">
             <h2>Inscription</h2>
-            <form onsubmit="validateCaptcha(event)">
+            <form onsubmit="validateCaptcha(event); register(event)">
                 <div class="input-group">
                     <label for="email">Adresse Email</label>
                     <input type="email" id="email" name="email" required>
@@ -145,24 +142,21 @@
                     <div class="input-group" id="specialty-container" style="display: none;">
                         <label for="specialty">Spécialité</label>
                         <select id="specialty" name="specialty">
-                            <!-- Options mises à jour par JavaScript -->
                         </select>
                     </div>
                 </div>
                 <div class="input-group">
-                    <label for="captcha">
-                        CAPTCHA</label>
-                        <div id="captcha-display" style="font-weight: bold; margin-bottom: 0.5em;"></div>
-                        <input type="text" id="captcha" name="captcha" required>
-                        <input type="hidden" id="captcha-value">
-                    </div>
-                    <button type="submit" class="signup-btn">S'inscrire</button>
-                </form>
-            </div>
-        </main>
-        <footer>
-            <p>&copy; 2024 PollHub. Tous droits réservés.</p>
-        </footer>
-    </body>
-    </html>
-    
+                    <label for="captcha">CAPTCHA</label>
+                    <div id="captcha-display" style="font-weight: bold; margin-bottom: 0.5em;"></div>
+                    <input type="text" id="captcha" name="captcha" required>
+                    <input type="hidden" id="captcha-value">
+                </div>
+                <button type="submit" class="signup-btn">S'inscrire</button>
+            </form>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 PollHub. Tous droits réservés.</p>
+    </footer>
+</body>
+</html>
