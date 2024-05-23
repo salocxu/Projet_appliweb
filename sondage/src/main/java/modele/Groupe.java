@@ -19,10 +19,16 @@ public class Groupe {
     @OneToMany(mappedBy = "groupe")
     private List<Personne> personnes;
 
+    @ManyToMany
+    private List<Sondage> sondages;
+
+
     public Groupe(String nom) {
         this.nom = nom;
     }
 
-    @ManyToMany
-    private List<Sondage> sondages;
+    public List<Personne> getPersonnes() {
+        return personnes;
+    }
+
 }

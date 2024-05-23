@@ -7,6 +7,7 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.ManyToOne;
 import javax.persistence.OneToMany;
+import java.util.List;
 @Entity
 public class Question {
    @Id
@@ -14,7 +15,6 @@ public class Question {
     private int id;
 
     private String question;
-
     private int nb_rep;
 
     @OneToMany(mappedBy = "question")
@@ -23,6 +23,7 @@ public class Question {
 
     public Question(String question) {
         this.question = question;
+        //this.reponses = reponses;
         this.nb_rep = 0;
     }
 
