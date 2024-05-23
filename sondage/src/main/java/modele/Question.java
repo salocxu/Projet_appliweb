@@ -17,12 +17,12 @@ public class Question {
     private String question;
     private int nb_rep;
 
-    //@OneToMany(mappedBy = "question")
-    private Reponse reponses;
+    @OneToMany(mappedBy = "question")
+    private List<Reponse> reponses;
 
     //qjysfjqshdkquGDIUG
 
-    
+
     public Question(String question) {
         this.question = question;
         //this.reponses = reponses;
