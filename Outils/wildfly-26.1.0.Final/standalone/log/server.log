@@ -370,3 +370,55 @@
 2024-05-14 19:13:22,240 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0028: Stopped deployment sondage.war (runtime-name: sondage.war) in 86ms
 2024-05-14 19:13:22,245 INFO  [org.jboss.as] (MSC service thread 1-7) WFLYSRV0050: WildFly Full 26.1.0.Final (WildFly Core 18.1.0.Final) stopped in 90ms
 >>>>>>> 4429eeb4834de3bce72d9b277c51b10914837cb4
+2024-05-23 10:32:48,470 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-8) WFLYDS0013: Started FileSystemDeploymentService for directory /Users/irenalermusiaux/Documents/Etude/ENSEEIHT/S8 M/Appli web/Projet_appliweb/Outils/wildfly-26.1.0.Final/standalone/deployments
+2024-05-23 10:32:48,509 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0027: Starting deployment of "sondage.war" (runtime-name: "sondage.war")
+2024-05-23 10:32:48,783 INFO  [org.jboss.ws.common.management] (MSC service thread 1-6) JBWS022052: Starting JBossWS 5.4.4.Final (Apache CXF 3.4.5) 
+2024-05-23 10:32:49,950 INFO  [org.jboss.as.jpa] (MSC service thread 1-7) WFLYJPA0002: Read persistence.xml for MaPU
+2024-05-23 10:32:50,252 INFO  [org.jipijapa] (MSC service thread 1-7) JIPIORMV53020253: Second level cache enabled for sondage.war#MaPU
+2024-05-23 10:32:50,620 INFO  [org.jboss.weld.deployer] (MSC service thread 1-1) WFLYWELD0003: Processing weld deployment sondage.war
+2024-05-23 10:32:50,979 INFO  [org.hibernate.validator.internal.util.Version] (MSC service thread 1-1) HV000001: Hibernate Validator 6.0.23.Final
+2024-05-23 10:32:51,516 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-1) WFLYEJB0473: JNDI bindings for session bean named 'Facade' in deployment unit 'deployment "sondage.war"' are as follows:
+
+	java:global/sondage/Facade!vue.Facade
+	java:app/sondage/Facade!vue.Facade
+	java:module/Facade!vue.Facade
+	java:global/sondage/Facade
+	java:app/sondage/Facade
+	java:module/Facade
+
+2024-05-23 10:32:51,724 INFO  [org.infinispan.CONTAINER] (ServerService Thread Pool -- 78) ISPN000128: Infinispan version: Infinispan 'Triskaidekaphobia' 13.0.8.Final
+2024-05-23 10:32:52,410 INFO  [org.infinispan.CONTAINER] (ServerService Thread Pool -- 78) ISPN000556: Starting user marshaller 'org.wildfly.clustering.infinispan.marshalling.jboss.JBossMarshaller'
+2024-05-23 10:32:52,549 INFO  [io.jaegertracing.internal.JaegerTracer] (MSC service thread 1-1) No shutdown hook registered: Please call close() manually on application shutdown.
+2024-05-23 10:32:52,557 INFO  [org.wildfly.microprofile.opentracing.smallrye] (MSC service thread 1-1) WFLYTRAC0001: Tracer initialized: JaegerTracer(version=Java-1.6.0, serviceName=sondage.war, reporter=RemoteReporter(sender=org.wildfly.extension.microprofile.opentracing.spi.sender.WildFlySender@3bb10568, closeEnqueueTimeout=1000), sampler=ConstSampler(decision=true, tags={sampler.type=const, sampler.param=true}), tags={hostname=MacBook-Air-de-N.local, jaeger.version=Java-1.6.0, ip=172.22.226.196}, zipkinSharedRpcSpan=false, expandExceptionLogs=false, useTraceId128Bit=false)
+2024-05-23 10:32:52,603 INFO  [org.infinispan.CONTAINER] (ServerService Thread Pool -- 79) ISPN000556: Starting user marshaller 'org.wildfly.clustering.infinispan.spi.marshalling.InfinispanProtoStreamMarshaller'
+2024-05-23 10:32:52,913 INFO  [org.jipijapa] (MSC service thread 1-8) JIPIORMV53020253: Second level cache enabled for sondage.war#MaPU
+2024-05-23 10:32:53,122 INFO  [org.jboss.weld.Version] (MSC service thread 1-8) WELD-000900: 3.1.9 (Final)
+2024-05-23 10:32:53,976 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 79) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'sondage.war#MaPU'
+2024-05-23 10:32:54,007 INFO  [org.infinispan.CONFIG] (MSC service thread 1-2) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2024-05-23 10:32:54,008 INFO  [org.infinispan.CONFIG] (MSC service thread 1-2) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2024-05-23 10:32:54,038 INFO  [org.infinispan.CONTAINER] (ServerService Thread Pool -- 78) ISPN000025: wakeUpInterval is <= 0, not starting expired purge thread
+2024-05-23 10:32:54,044 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 78) WFLYCLINF0002: Started http-remoting-connector cache from ejb container
+2024-05-23 10:32:54,085 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 79) HHH000204: Processing PersistenceUnitInfo [
+	name: MaPU
+	...]
+2024-05-23 10:32:54,445 INFO  [org.hibernate.Version] (ServerService Thread Pool -- 79) HHH000412: Hibernate Core {5.3.24.Final}
+2024-05-23 10:32:54,454 INFO  [org.hibernate.cfg.Environment] (ServerService Thread Pool -- 79) HHH000206: hibernate.properties not found
+2024-05-23 10:32:55,317 INFO  [org.hibernate.annotations.common.Version] (ServerService Thread Pool -- 79) HCANN000001: Hibernate Commons Annotations {5.0.5.Final}
+2024-05-23 10:32:55,826 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 79) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'sondage.war#MaPU'
+2024-05-23 10:32:56,725 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 79) HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2024-05-23 10:32:56,959 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 79) Envers integration enabled? : true
+2024-05-23 10:32:59,007 INFO  [org.hibernate.tuple.PojoInstantiator] (ServerService Thread Pool -- 79) HHH000182: No default (no-argument) constructor for class: modele.Personne (class must be instantiated by Interceptor)
+2024-05-23 10:32:59,375 INFO  [stdout] (ServerService Thread Pool -- 79) Hibernate: drop table Historique if exists
+2024-05-23 10:32:59,393 INFO  [stdout] (ServerService Thread Pool -- 79) Hibernate: drop table Personne if exists
+2024-05-23 10:32:59,393 INFO  [stdout] (ServerService Thread Pool -- 79) Hibernate: drop table Sondage if exists
+2024-05-23 10:32:59,401 INFO  [stdout] (ServerService Thread Pool -- 79) Hibernate: create table Historique (id integer generated by default as identity, nom varchar(255), prenom varchar(255), primary key (id))
+2024-05-23 10:32:59,434 INFO  [stdout] (ServerService Thread Pool -- 79) Hibernate: create table Personne (id integer generated by default as identity, autorisation integer not null, mail varchar(255), mdp varchar(255), nom varchar(255), prenom varchar(255), primary key (id))
+2024-05-23 10:32:59,436 INFO  [stdout] (ServerService Thread Pool -- 79) Hibernate: create table Sondage (id integer generated by default as identity, rue varchar(255), ville varchar(255), owner_id integer, primary key (id))
+2024-05-23 10:32:59,439 INFO  [stdout] (ServerService Thread Pool -- 79) Hibernate: alter table Sondage add constraint FKc3yuhsvhuvhbppjdd6f4tjyyx foreign key (owner_id) references Historique
+2024-05-23 10:32:59,466 INFO  [org.hibernate.tool.schema.internal.SchemaCreatorImpl] (ServerService Thread Pool -- 79) HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@755c6d6b'
+2024-05-23 10:33:00,992 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 79) WFLYUT0021: Registered web context: '/sondage' for server 'default-server'
+2024-05-23 10:33:01,157 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 45) WFLYSRV0010: Deployed "sondage.war" (runtime-name : "sondage.war")
+2024-05-23 10:33:01,285 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Resuming server
+2024-05-23 10:33:01,289 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Full 26.1.0.Final (WildFly Core 18.1.0.Final) started in 25142ms - Started 470 of 650 services (341 services are lazy, passive or on-demand) - Server configuration file in use: standalone.xml
+2024-05-23 10:33:01,298 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
+2024-05-23 10:33:01,299 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9990

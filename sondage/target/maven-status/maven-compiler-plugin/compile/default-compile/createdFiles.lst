@@ -1,9 +1,0 @@
-vue\Facade.class
-modele\Groupe.class
-modele\Question.class
-modele\Sondage.class
-modele\Personne.class
-modele\Commentaire.class
-modele\Historique.class
-modele\Reponse.class
-pack\Serv.class
