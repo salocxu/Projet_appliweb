@@ -10,6 +10,7 @@
 
         <class>modele.Personne</class>
         <class>modele.Adresse</class>
+        <class>com.example.User</class>
 
         <properties>
             <property name="hibernate.dialect" value="org.hibernate.dialect.H2Dialect" />

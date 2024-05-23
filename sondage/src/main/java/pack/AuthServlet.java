@@ -1,46 +1,34 @@
+
 package pack;
-
-
-import javax.ejb.EJB;
+import java.io.IOException;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-import java.io.IOException;
-import com.google.gson.JsonObject;
+import javax.servlet.RequestDispatcher;
+import modele.*;
 
-@WebServlet("/Serv")
+@WebServlet("/auth")
 public class AuthServlet extends HttpServlet {
+    private static final long serialVersionUID = 1L;
 
-    @EJB
-    private AuthBean authBean;
+    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        String email = request.getParameter("email");
+        String password = request.getParameter("password");
+        String confirmPassword = request.getParameter("confirm-password");
+        String userType = request.getParameter("user-type");
+        
+        if (password.equals(confirmPassword)) {
+            User newUser = new User(email, password, userType);
+            // Enregistrement dans la base de données
+            // UserDAO.save(newUser);
 
-    @Override
-    protected void doPost(HttpServletRequest request, HttpServletResponse response)
-            throws ServletException, IOException {
-        String op = request.getParameter("op");
-        String mail = request.getParameter("mail");
-        String mdp = request.getParameter("mdp");
-        JsonObject jsonResponse = new JsonObject();
-
-        try {
-            if ("ajoutpersonne".equals(op)) {
-                System.out.println("Authenticating user: " + mail);
-                boolean success = authBean.authenticate(mail, mdp);
-                jsonResponse.addProperty("success", success);
-            } else if ("nouvelutilisateur".equals(op)) {
-                System.out.println("Adding new user: " + mail);
-                authBean.addUser(mail, mdp);
-                jsonResponse.addProperty("success", true);
-            }
-        } catch (Exception e) {
-            e.printStackTrace();
-            jsonResponse.addProperty("success", false);
-            jsonResponse.addProperty("message", "An error occurred: " + e.getMessage());
+            response.sendRedirect("success.html");
+        } else {
+            request.setAttribute("errorMessage", "Les mots de passe ne correspondent pas.");
+            RequestDispatcher dispatcher = request.getRequestDispatcher("signup.html");
+            dispatcher.forward(request, response);
         }
-
-        response.setContentType("application/json");
-        response.getWriter().write(jsonResponse.toString());
     }
 }
