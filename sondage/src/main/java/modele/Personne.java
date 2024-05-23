@@ -13,14 +13,14 @@ public class Personne {
     private Long id;
     private String email;
     private String password;
-    private int autorisation;
+    private boolean autorisation;
 
     public Personne() {
     }
 
-    public Personne(String email, String password) {
+    public Personne(String email, String password, boolean userType) {
         this.email = email;
-        this.autorisation = 0;
+        this.autorisation = userType;
         this.password = password;
     }
 
@@ -38,7 +38,7 @@ public class Personne {
         return password;
     }
 
-    public int getAutorisation() {
+    public boolean getAutorisation() {
         return autorisation;
     }
 
@@ -46,7 +46,7 @@ public class Personne {
         this.password = password;
     }
 
-    public void setAutorisation(int autorisation) {
+    public void setAutorisation(boolean autorisation) {
         this.autorisation = autorisation;
     }
 

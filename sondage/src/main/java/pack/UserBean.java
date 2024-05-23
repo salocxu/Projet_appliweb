@@ -14,8 +14,8 @@ public class UserBean {
     @PersistenceContext
     private EntityManager em;
 
-    public void createUser(String email, String password) {
-        Personne user = new Personne(email, password);
+    public void createUser(String email, String password, boolean userType) {
+        Personne user = new Personne(email, password, userType);
         em.persist(user);
     }
 }
